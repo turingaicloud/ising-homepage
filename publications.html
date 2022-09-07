@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HKUST iSING Lab | Intelligent System and Networking research group">
+    <title>HKUST iSING Lab | Intelligent System and Networking research group</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/assets/favicon-32x32.png">
+    <link rel="shortcut icon" href="/images/assets/favicon.ico">
+    <link href="./main.css" rel="stylesheet">
+
+  </head>
+
+  <script type="module">
+    import { renderNode } from './js/skruv/vDOM.js'
+    import { header, footer } from './page.js'
+    renderNode(header, document.getElementById("header"))
+    renderNode(footer, document.getElementById("footer"))
+  </script>
+
+  <style>
+    .publication-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      text-align: left;
+    }
+
+    .publications img {
+      padding-bottom: 1rem;
+    }
+
+    .well {
+      background-color: #fafafa;
+      padding: 1rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 0 rgb(0, 0, 0, 5%);
+    }
+  </style>
+
+  <body>
+
+    <div id="header"></div>
+
+
+    <div class="container-fluid">
+      <div class="section section-content publications">
+        <div class="row content">
+          <div id="gridid" class="col-sm-12">
+
+            <div class="title">Publication Highlights</div>
+
+            <div class="row row-flex row-flex-wrap">
+
+              <div class="col-sm-6 clearfix">
+                <div class="well">
+                  <div class="publication-title">Tiara: A Scalable and Efficient Hardware Acceleration Architecture for Stateful Layer-4 Load Balancing</div>
+                  <p><img src="/images/content/tiara.png" class="img-responsive" width="95%" style="float: left" /></p>
+                  <p>Tiara is a hardware architecture for stateful layer-4 LBs that aims to support a high traffic rate (&gt; 1 Tbps), a large number of concurrent flows (&gt; 10M), and many new connections per second (&gt; 1M), without any assumption on traffic patterns. The three-tier architecture makes the best use of heterogeneous hardware for stateful LBs.</p>
+                  <p><em>Chaoliang Zeng, Layong Luo, Teng Zhang, Zilong Wang, Luyang Li, Wenchen Han, Nan Chen, Lebing Wan, Lichao Liu, Zhipeng Ding, Xiongfei Geng, Tao Feng, Feng Ning, Kai Chen, Chuanxiong Guo</em></p>
+                  <p><strong>NSDI 2022, <a href="https://ising.cse.ust.hk/files/tiara_nsdi22.pdf">PDF</a></strong></p>
+                  <p class="text-danger"><strong> </strong></p>
+                  <p> </p>
+                </div>
+              </div>
+
+              <div class="col-sm-6 clearfix">
+                <div class="well">
+                  <div class="publication-title">Aeolus: A Building Block for Proactive Transport in Datacenters</div>
+                  <p><img src="/images/content/aeolus.jpg" class="img-responsive" width="95%" style="float: left" /></p>
+                  <p>As datacenter network bandwidth keeps growing, proactive transport becomes attractive, where bandwidth is proactively allocatedas “credits” to senders who then can send “scheduled packets” at a right rate to ensure high link utilization, low latency, and zero packet loss. We present Aeolus, a solution focusing on “pre-credit” packet transmission as a building block for proactive transports.</p>
+                  <p><em>Shuihai Hu, Wei Bai, Gaoxiong Zeng, Zilong Wang, Baochen Qiao, Kai Chen, Kun Tan, Yi Wang</em></p>
+                  <p><strong>SIGCOMM 2020, <a href="https://www.cse.ust.hk/~kaichen/papers/aeolus-sigcomm20.pdf">PDF</a></strong></p>
+                  <p class="text-danger"><strong> </strong></p>
+                  <p> </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row row-flex row-flex-wrap">
+
+              <div class="col-sm-6 clearfix">
+                <div class="well">
+                  <div class="publication-title">AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization</div>
+                  <p><img src="/images/content/auto.jpg" class="img-responsive" width="95%" style="float: left" /></p>
+                  <p>Traffic optimizations (TO, e.g. flow scheduling, load balancing) in datacenters are difficult online decision-making problems. Leveraging the long-tail distribution of datacenter traffic, we develop a two-level DRL system, AuTO, mimicking the Peripheral &amp; Central Nervous Systems in animals, to solve the scalability problem.</p>
+                  <p><em>Li Chen, Justinas Lingys, Kai Chen, Feng Liu</em></p>
+                  <p><strong>SIGCOMM 2018, <a href="https://dl.acm.org/doi/pdf/10.1145/3230543.3230551">PDF</a></strong></p>
+                  <p class="text-danger"><strong> </strong></p>
+                  <p> </p>
+                </div>
+              </div>
+
+              <div class="col-sm-6 clearfix">
+                <div class="well">
+                  <div class="publication-title">PowerMan: An Out-of-Band Management Network for Datacenters using Power Line Communication</div>
+                  <p><img src="/images/content/powerman.jpg" class="img-responsive" width="95%" style="float: left" /></p>
+                  <p>Management tasks in datacenters are usually executed in-band with the data plane applications, making them susceptible to faults and failures in the data plane. We design PowerMan, a novel datacenter management network that can be readily built into existing datacenter power systems</p>
+                  <p><em>Li Chen, Jiacheng Xia, Bairen Yi, Kai Chen</em></p>
+                  <p><strong>NSDI 2018, <a href="https://www.cse.ust.hk/~kaichen/papers/nsdi18-powerman.pdf">PDF</a></strong></p>
+                  <p class="text-danger"><strong> </strong></p>
+                  <p> </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row row-flex row-flex-wrap">
+
+              <div class="col-sm-6 clearfix">
+                <div class="well">
+                  <div class="publication-title">Resilient Datacenter Load Balancing in the Wild</div>
+                  <p><img src="/images/content/hermes.jpg" class="img-responsive" width="95%" style="float: left" /></p>
+                  <p>Production datacenters operate under various uncertainties such as traffic dynamics, topology asymmetry, and failures. Therefore, datacenter load balancing schemes must be resilient to these uncertainties. We introduce Hermes, a datacenter load balancer that is resilient to uncertainties.</p>
+                  <p><em>Hong Zhang, Junxue Zhang, Wei Bai, Kai Chen, Mosharaf Chowdhury</em></p>
+                  <p><strong>SIGCOMM 2017, <a href="https://www.cse.ust.hk/~kaichen/papers/hermes-sigcomm17.pdf">PDF</a></strong></p>
+                  <p class="text-danger"><strong> </strong></p>
+                  <p> </p>
+                </div>
+              </div>
+
+              <div class="col-sm-6 clearfix">
+                <div class="well">
+                  <div class="publication-title">Enabling Wide-spread Communications on Optical Fabric with MegaSwitch</div>
+                  <p><img src="/images/content/megaswitch.jpg" class="img-responsive" width="95%" style="float: left" /></p>
+                  <p>Existing wired optical interconnects face a challenge of supporting wide-spread communications in production clusters. We present MegaSwitch, a multi-fiber ring optical fabric that exploits space division multiplexing across multiple fibers to deliver rearrangeably non-blocking communications to 30+ racks and 6000+ servers.</p>
+                  <p><em>Li Chen, Kai Chen, Joshua Zhu, Minlan Yu, George Porter, Chunming Qiao, Shan Zhong</em></p>
+                  <p><strong>NSDI 2017, <a href="https://www.cse.ust.hk/~kaichen/papers/megaswitch-nsdi17.pdf">PDF</a></strong></p>
+                  <p class="text-danger"><strong> </strong></p>
+                  <p> </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="title">Awards</div>
+
+<div class="row row-flex row-flex-wrap">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <div class="publication-title"><p class="ex2">Cengguang Zhang won the Best Application Paper Award at FTL-IJCAI 2021 (<a href="https://arxiv.org/abs/2108.06958">paper</a>).</p></div>
+
+      <p><img src="/images/content/zhang2021.png" class="img-responsive" width="100%" style="float: left" /></p>
+
+      <p>International Workshop on Federated and Transfer Learning for Data Sparsity and Confidentiality in Conjunction with IJCAI 2021 (FTL-IJCAI’21) is held on August 21, 2021. The work of Cengguang Zhang, Junxue Zhang, Di Chai, and Prof. Kai Chen titled <i>Aegis: A Trusted, Automatic and Accurate Verification Framework for Vertical Federated Learning</i> won the best application paper award.</p>
+      <p><strong><a href="http://federated-learning.org/fl-ijcai-2021/">FTL-IJCAI 2021</a></strong></p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <div class="publication-title"><p class="ex2">Zhaoxiong Yang won the Best Student Paper Award at FL-IJCAI 2020 (<a href="https://arxiv.org/pdf/2007.10560.pdf">paper</a>).</p></div>
+
+      <p><img src="/images/content/yang2020.png" class="img-responsive" width="100%" style="float: left" /></p>
+
+      <p>The 2nd International Workshop on Federated Machine Learning for User Privacy and Data Confidentiality in conjunction with IJCAI 20 (FL-IJCAI ‘20) is held on January 08, 2021. The work of Zhaoxiong Yang, Dr. Shuihai Hu and Prof. Kai Chen titled <i>FPGA-Based Hardware Accelerator of Homomorphic Encryption for Efficient Federated Learning</i> won the best student paper award.</p>
+      <p><strong><a href="http://fl-ijcai20.federated-learning.org/">FL-IJCAI 2020</a></strong></p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row row-flex row-flex-wrap">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <div class="publication-title"><p class="ex2">Qinghe Jing won the Best Student Paper Award at FL-IJCAI 2019 (<a href="https://www.cse.ust.hk/~kaichen/papers/ijcai-fml19-1.pdf">paper</a>).</p></div>
+
+      <p><img src="/images/content/jing2019.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+
+      <p>The 1st International Workshop on Federated Machine Learning for User Privacy and Data Confidentiality (FML’19) in conjunction with the 28th International Joint Conference on Artificial Intelligence (IJCAI-19) on 12th Aug. 2019, to discuss issues like what’s the solution to the data silos among businesses? Given the enhanced regulation on data at home and abroad, what’s the solution to data privacy and security concerns? What’s the status quo of Federated Machine Learning and how to establish an ecosystem for FML in the future?</p>
+      <p><strong><a href="https://www.fedai.org/news/webank-held-the-1st-international-workshop-on-federated-machine-learning-in-conjunction-with-ijcai-2019/">FL-IJCAI 2019</a></strong></p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <div class="publication-title"><p class="ex2">Xinchen Wan won the Best AI Performance Achievement at the 2019 APAC HPC-AI Competition.</p></div>
+
+      <p><img src="/images/content/wan2019.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+
+      <p>The APAC HPC-AI competition encourages international teams in the APAC region to showcase their HPC and AI expertise in a friendly yet spirited competition that builds critical skills, professional relationships, competitive spirits and lifelong comraderies.</p>
+      <p><strong><a href="http://www.hpcadvisorycouncil.com/events/2019/APAC-AI-HPC/">2019 APAC HPC-AI Competition</a></strong></p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row row-flex row-flex-wrap">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <div class="publication-title"><p class="ex2">Hong Zhang won 2016 Google PhD Fellowship</p></div>
+
+      <p>Nurturing and maintaining strong relations with the academic community is a top priority at Google. The Google PhD Fellowship Program was created to recognize outstanding graduate students doing exceptional and innovative research in areas relevant to computer science and related fields. Fellowships support promising PhD candidates of all backgrounds who seek to influence the future of technology. Google’s mission is to foster inclusive research communities and encourages people of diverse backgrounds to apply. We currently offer Fellowships in Africa, Australia and New Zealand, East Asia, Europe, India, the United States and Canada.</p>
+      <p><strong><a href="https://ai.googleblog.com/2016/09/announcing-first-annual-global-phd.html">2016 Google PhD Fellowship</a></strong></p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <div class="publication-title"><p class="ex2">Li Chen won 2016 Microsoft Research Asia PhD Fellowship</p></div>
+
+      <p><img src="/images/content/li2016.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+
+      <p>Over one hundred distinguished PhD candidates from 40 leading research academic institutions in China, Hong Kong SAR, Taiwan, Japan, Korea, and Singapore were nominated for the 2016 Microsoft Research Asia fellowships. After evaluating each application, our review committee selected 10 outstanding PhD candidates whose exceptional talent and innovation in computer science-related research identifies them as emerging leaders in the Asia-Pacific region.</p>
+      <p><strong><a href="https://www.microsoft.com/en-us/research/academic-program/fellowships-microsoft-research-asia">2016 Microsoft Research Asia PhD Fellowship</a></strong></p>
+    </div>
+  </div>
+
+</div>
+
+<div class="row row-flex row-flex-wrap">
+
+  <div class="col-sm-6 clearfix">
+    <div class="well">
+      <div class="publication-title"><p class="ex2">Wei Bai won 2015 Microsoft Research Asia PhD Fellowship</p></div>
+
+      <p>The Microsoft Research Asia Fellowship Program identifies the next generation of research leaders through a unique program that offers a combination of mentorship, research, networking, and academic opportunities to promising young candidates. Since its inception in 1999, the program has awarded 429 outstanding PhD students the Microsoft Research Asia Fellowship honor. Fellows have gone on to become prominent researchers and influential individuals in academia and industry. Fellows earn both a scholarship and enjoy a long-term professional relationship with Microsoft Research Asia, one of the leading computer science research labs in the world. Each winner is offered the opportunity to complete an internship, during which they participate in hands-on, advanced research at Microsoft Research Asia in Beijing, China.</p>
+      <p><strong><a href="https://www.microsoft.com/en-us/research/academic-program/fellowships-microsoft-research-asia">2015 Microsoft Research Asia PhD Fellowship</a></strong></p>
+    </div>
+  </div>
+
+  <div class="col-sm-6 clearfix"></div>
+</div>            
+
+            <div class="title" id="full-list">Full Publication List</div>
+
+            <p>DGS: Communication-Efficient Graph Sampling for Distributed GNN Training <br />
+              <em>Xinchen Wan, Kai Chen, Yiming Zhang </em><br />
+              ICNP 2022
+            </p>
+
+            <p>S-RDMA: A Scalable Architecture for RDMA NICs <br />
+              <em>Zilong Wang, Layong Luo, Qingsong Ning, Chaoliang Zeng, Wenxue Li, Xinchen Wan, Peng Xie, Tao Feng, Ke Cheng, Xiongfei Geng, Tianhao Wang, Weicheng Ling, Kejia Huo, Pingbo An, Kui Ji, Shideng Zhang, Bin Xu, Ruiqing Feng, Tao Ding, Kai Chen, Chuanxiong Guo </em><br />
+              NSDI 2023
+            </p>
+
+            <p>Secure Forward Aggregation for Vertical Federated Neural Networks <br />
+              <em>Shuowei Cai, Di Chai, Liu Yang, Junxue Zhang, Yilun Jin, Leye Wang, Kun Guo, Kai Chen </em><br />
+              FL-IJCAI 2022, <a href="https://arxiv.org/abs/2207.00165">PDF</a>
+            </p>
+
+            <p>Practical and Secure Federated Recommendation with Personalized Masks <br />
+              <em>Liu Yang, Junxue Zhang, Di Chai, Leye Wang, Kun Guo, Kai Chen, Qiang Yang </em><br />
+              FL-IJCAI 2022, <a href="https://arxiv.org/abs/2109.02464">PDF</a>
+            </p>
+
+            <p>Selective Cross-city Transfer Learning for Traffic Prediction via Source City Region Re-weighting <br />
+              <em>Yilun Jin, Kai Chen, Qiang Yang </em><br />
+              KDD 2022
+            </p>
+
+            <p>Practical Lossless Federated Singular Vector Decomposition Over Billion-Scale Data <br />
+              <em>Di Chai, Leye Wang, Junxue Zhang, Liu Yang, Shuowei Cai, Kai Chen, Qiang Yang </em><br />
+              KDD 2022
+            </p>
+
+            <p>LiteFlow: Towards High-performance Adaptive Neural Networks for Kernel Datapath <br />
+              <em>Junxue Zhang, Chaoliang Zeng, Hong Zhang, Shuihai Hu, Kai Chen </em><br />
+              SIGCOMM 2022
+            </p>
+
+            <p>Herald: An Embedding Scheduler for Distributed Embedding Model Training <br />
+              <em>Chaoliang Zeng, Xiaodian Cheng, Han Tian, Hao Wang, Kai Chen </em><br />
+              APNet 2022
+            </p>
+
+            <p>Load Balancing in PFC-enabled Datacenter Networks <br />
+              <em>Jinbin Hu, Chaoliang Zeng, Zilong Wang, Hong Xu, Jiawei Huang, Kai Chen </em><br />
+              APNet 2022
+            </p>
+
+            <p>FAERY: An FPGA-accelerated Embedding-based Retrieval System <br />
+              <em>Chaoliang Zeng, Layong Luo, Qingsong Ning, Yaodong Han, Yuhang Jiang, Ding Tang, Zilong Wang, Kai Chen, Chuanxiong Guo </em><br />
+              OSDI 2022
+            </p>
+
+            <p>Multi-Objective Congestion Control <br />
+              <em>Yiqing Ma, Han Tian, Xudong Liao, Junxue Zhang, Weiyan Wang, Kai Chen, Xin Jin </em><br />
+              EuroSys 2022, <a href="https://www.cse.ust.hk/~kaichen/papers/mocc-eurosys22.pdf">PDF</a>
+            </p>
+
+            <p>AutoByte: Automatic Configuration for Optimal Communication Scheduling in DNN Training <br />
+              <em>Yiqing Ma, Hao Wang, Yiming Zhang, Kai Chen </em><br />
+              INFOCOM 2022, <a href="https://arxiv.org/pdf/2112.13509.pdf">PDF</a>
+            </p>
+
+            <p>Cutting Tail Latency in Commodity Datacenters with Cloudburst <br />
+              <em>Gaoxiong Zeng, Li Chen, Bairen Yi, Kai Chen </em><br />
+              INFOCOM 2022, <a href="https://arxiv.org/pdf/2110.15157.pdf">PDF</a>
+            </p>
+
+            <p>Addressing Network Bottlenecks with Divide-and-Shuffle Synchronization for Distributed DNN Training <br />
+              <em>Weiyan Wang, Cengguang Zhang, Liu Yang, Kai Chen, Kun Tan </em><br />
+              INFOCOM 2022, <a href="https://arxiv.org/pdf/2007.03298.pdf">PDF</a>
+            </p>
+
+            <p>Sphinx: Enabling Privacy-Preserving Online Learning over the Cloud <br />
+              <em>Han Tian, Chaoliang Zeng, Zhenghang Ren, Di Chai, Junxue Zhang, Kai Chen, Qiang Yang </em><br />
+              S&amp;P 2022, <a href="https://hydrazeng.github.io/publication/sphinx/sphinx.pdf">PDF</a>
+            </p>
+
+            <p>Improving Availability of Vertical Federated Learning <br />
+              <em>Zhenghang Ren, Liu Yang, Kai Chen </em><br />
+              ACM Transactions on Intelligent Systems and Technology 2021, <a href="https://cse.hkust.edu.hk/~kaichen/papers/vfl-tist21.pdf">PDF</a>
+            </p>
+
+            <p>Efficient Federated Matrix Factorization against Inference Attacks <br />
+              <em>Di Chai, Leye Wang, Kai Chen, Qiang Yang </em><br />
+              ACM Transactions on Intelligent Systems and Technology 2021, <a href="https://cse.hkust.edu.hk/~kaichen/papers/famf-tist21.pdf">PDF</a>
+            </p>
+
+            <p>FlashPass: Proactive Congestion Control for Shallow-buffered WAN <br />
+              <em>Gaoxiong Zeng, Jianxin Qiu, Yifei Yuan, Hongqiang Liu, Kai Chen </em><br />
+              ICNP 2021, <a href="https://icnp21.cs.ucr.edu/papers/icnp21camera-paper41.pdf">PDF</a>
+            </p>
+
+            <p>HAFLO: GPU-Based Acceleration for Federated Logistic Regression <br />
+              <em>Xiaodian Cheng, Wanhang Lu, Xinyang Huang, Shuihai Hu and Kai Chen </em><br />
+              FTL-IJCAI 2021, <a href="https://arxiv.org/abs/2107.13797">PDF</a>
+            </p>
+
+            <p>Aegis: A Trusted, Automatic and Accurate Verification Framework for Vertical Federated Learning <br />
+              <em>Cengguang Zhang, Junxue Zhang, Di Chai and Kai Chen </em><br />
+              FTL-IJCAI 2021, <a href="https://arxiv.org/abs/2108.06958">PDF</a>
+            </p>
+
+            <p>Tiara: A Scalable and Efficient Hardware Acceleration Architecture for Stateful Layer-4 Load Balancing <br />
+              <em>Chaoliang Zeng, Layong Luo, Teng Zhang, Zilong Wang, Luyang Li, Wenchen Han, Nan Chen, Lebing Wan, Lichao Liu, Zhipeng Ding, Xiongfei Geng, Tao Feng, Feng Ning, Kai Chen, Chuanxiong Guo </em><br />
+              NSDI 2022, <a href="https://ising.cse.ust.hk/files/tiara_nsdi22.pdf">PDF</a>
+            </p>
+
+            <p>Enabling Edge-Cloud Video Analytics for Robotic Applications <br />
+              <em>Yiding Wang, Weiyan Wang, Duowen Liu, Xin Jin, Junchen Jiang, Kai Chen </em><br />
+              INFOCOM 2021, <a href="https://yidingwang.xyz/public/files/runespoor-infocom21.pdf">PDF</a>
+            </p>
+
+            <p>Secure efficient Federated KNN for Recommendation Systems <br />
+              <em>Zhaorong Liu, Leye Wang, Kai Chen </em><br />
+              ICNC-FSKD 2020, <a href="https://ising.cse.ust.hk/files/Secure_efficient_Federated_KNN_for_Recommendation_Systems_ICNC.pdf">PDF</a>
+            </p>
+
+            <p>Accelerating Intra-Party Communication in Vertical Federated Learning with RDMA <br />
+              <em>Duowen Liu </em><br />
+              DistributedML 2020, <a href="https://ising.cse.ust.hk/files/3426745.3431333.pdf">PDF</a>
+            </p>
+
+            <p>Federated Recommendation Systems <br />
+              <em>Liu Yang, Ben Tan, Vincent W. Zheng, Kai Chen, Qiang Yang </em><br />
+              Federated Learning, <a href="https://ising.cse.ust.hk/files/Federated_Recommendation_Systems.pdf">PDF</a>
+            </p>
+
+            <p>Exploring Clustering of Bandits for Online Recommendation System <br />
+              <em>Liu Yang, Bo Liu, Leyu Lin, Feng Xia, Kai Chen, Qiang Yang </em><br />
+              RecSys 2020, <a href="https://dl.acm.org/doi/pdf/10.1145/3383313.3412250">PDF</a>
+            </p>
+
+            <p>Secure Federated Matrix Factorization <br />
+              <em>Di Chai, Leye Wang, Kai Chen, Qiang Yang </em><br />
+              IEEE Intelligent Systems, <a href="https://ising.cse.ust.hk/files/09162459.pdf">PDF</a>
+            </p>
+
+            <p>FPGA-Based Hardware Accelerator of Homomorphic Encryption for Efficient Federated Learning <br />
+              <em>Zhaoxiong Yang, Shuihai Hu, Kai Chen </em><br />
+              FL-IJCAI 2020, <a href="https://arxiv.org/pdf/2007.10560.pdf">PDF</a>
+            </p>
+
+            <p>Aeolus: A Building Block for Proactive Transport in Datacenters <br />
+              <em>Shuihai Hu, Wei Bai, Gaoxiong Zeng, Zilong Wang, Baochen Qiao, Kai Chen, Kun Tan, Yi Wang </em><br />
+              SIGCOMM 2020, <a href="https://www.cse.ust.hk/~kaichen/papers/aeolus-sigcomm20.pdf">PDF</a>
+            </p>
+
+            <p>RAT - Resilient Allreduce Tree for Distributed Machine Learning <br />
+              <em>Xinchen Wan, Hong Zhang, Hao Wang, Shuihai Hu, Junxue Zhang, Kai Chen </em><br />
+              APNet 2020, <a href="https://conferences.sigcomm.org/events/apnet2020/material/apnet20-final28.pdf">PDF</a>
+            </p>
+
+            <p>One More Config is Enough: Saving (DC)TCP for High-speed Extremely Shallow-buffered Datacenters <br />
+              <em>Wei Bai, Shuihai Hu, Kai Chen, Kun Tan, Yongqiang Xiong </em><br />
+              INFOCOM 2020, <a href="https://baiwei0427.github.io/papers/bcc-infocom2020.pdf">PDF</a>
+            </p>
+
+            <p>Enabling ECN for Datacenter Networks with RTT Variations <br />
+              <em>Junxue Zhang, Wei Bai, Kai Chen </em><br />
+              CoNEXT 2019, <a href="https://www.cse.ust.hk/~kaichen/papers/ecn-conext19.pdf">PDF</a>
+            </p>
+
+            <p>Congestion Control for Cross-Datacenter Networks <br />
+              <em>Gaoxiong Zeng, Wei Bai, Ge Chen, Kai Chen, Dongsu Han, Yibo Zhu, Lei Cui </em><br />
+              ICNP 2019, <a href="https://www.cse.ust.hk/~kaichen/papers/gemini-icnp19.pdf">PDF</a>
+            </p>
+
+            <p>Rethinking Transport Layer Design for Distributed Machine Learning <br />
+              <em>Jiacheng Xia, Gaoxiong Zeng, Junxue Zhang, Weiyan Wang, Wei Bai, Junchen Jiang, Kai Chen </em><br />
+              APNet 2019, <a href="https://www.cse.ust.hk/~kaichen/papers/mlt-apnet19.pdf">PDF</a>
+            </p>
+
+            <p>Quantifying the Performance of Federated Transfer Learning <br />
+              <em>Qinghe Jing, Weiyan Wang, Junxue Zhang, Han Tian, Kai Chen </em><br />
+              FL-IJCAI 2019, the 1st Intl. Workshop on Federated Learning for User Privacy &amp; Data Confidentiality (Best Student Paper Award), <a href="https://www.cse.ust.hk/~kaichen/papers/ijcai-fml19-1.pdf">PDF</a>
+            </p>
+
+            <p>Secure Federated Matrix Factorization <br />
+              <em>Di Chai, Leye Wang, Kai Chen, Qiang Yang </em><br />
+              FL-IJCAI 2019, the 1st Intl. Workshop on Federated Learning for User Privacy &amp; Data Confidentiality, <a href="https://www.cse.ust.hk/~kaichen/papers/fedmf-fml19.pdf">PDF</a>
+            </p>
+
+            <p>Bridging the Edge-Cloud Barrier for Real-time Advanced Vision Analytics <br />
+              <em>Yiding Wang, Weiyan Wang, Junxue Zhang, Junchen Jiang, Kai Chen </em><br />
+              HotCloud 2019, <a href="https://yidingwang.xyz/public/files/cloudseg-hotcloud19.pdf">PDF</a>
+            </p>
+
+            <p>Tagger: Practical PFC Deadlock Prevention in Data Center Networks <br />
+              <em>Shuihai Hu, Yibo Zhu, Peng Cheng, Chuanxiong Guo, Kun Tan, Jitendra Padhye, Kai Chen </em><br />
+              IEEE/ACM Transactions on Networking, 2019, <a href="https://www.cse.ust.hk/~kaichen/papers/tagger-ton19.pdf">PDF</a>
+            </p>
+
+            <p>Providing Bandwidth Guarantees, Work Conservation and Low Latency Simultaneously in the Cloud <br />
+              <em>Shuihai Hu, Wei Bai, Kai Chen, Chen Tian, Ying Zhang, Haitao Wu </em><br />
+              IEEE Transactions on Cloud Computing, 2019, <a href="https://www.cse.ust.hk/~kaichen/papers/trinity-tcc19.pdf">PDF</a>
+            </p>
+
+            <p>AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization <br />
+              <em>Li Chen, Justinas Lingys, Kai Chen, Feng Liu </em><br />
+              SIGCOMM 2018, <a href="https://dl.acm.org/doi/pdf/10.1145/3230543.3230551">PDF</a>
+            </p>
+
+            <p>Augmenting Proactive Congestion Control with Aeolus <br />
+              <em>Shuihai Hu, Wei Bai, Baochen Qiao, Kai Chen, Kun Tan </em><br />
+              APNet 2018, <a href="https://www.cse.ust.hk/~kaichen/papers/aeolus-apnet18.pdf">PDF</a>
+            </p>
+
+            <p>Pas de deux: Shape the Circuits, and Shape the Apps too! <br />
+              <em>Hong Zhang, Kai Chen, Mosharaf Chowdhury </em><br />
+              APNet 2018, <a href="https://www.cse.ust.hk/~kaichen/papers/apnet18-opticoflow.pdf">PDF</a>
+            </p>
+
+            <p>BDS: A Centralized Near-Optimal Overlay Network for Inter-Datacenter Data Replication <br />
+              <em>Yuchao Zhang, Junchen Jiang, Ke Xu, Xiaohui Nie, Martin Reed, Haiyang Wang, Guang Yao, Miao Zhang, Kai Chen </em><br />
+              EuroSys 2018, <a href="https://www.cse.ust.hk/~kaichen/papers/eurosys18-bds.pdf">PDF</a>
+            </p>
+
+            <p>PowerMan: An Out-of-Band Management Network for Datacenters using Power Line Communication <br />
+              <em>Li Chen, Jiacheng Xia, Bairen Yi, Kai Chen </em><br />
+              NSDI 2018, <a href="https://www.cse.ust.hk/~kaichen/papers/nsdi18-powerman.pdf">PDF</a>
+            </p>
+
+            <p>Enabling Work-conserving Bandwidth Guarantees for Multi-tenant Datacenters via Dynamic Tenant-Queue Binding <br />
+              <em>Zhuotao Liu, Kai Chen, Haitao Wu, Shuihai Hu, Yih-Chun Hu, Yi Wang, Gong Zhang </em><br />
+              INFOCOM 2018, <a href="https://www.cse.ust.hk/~kaichen/papers/qshare-infocom18.pdf">PDF</a>
+            </p>
+
+            <p>Tagger: Practical PFC Deadlock Prevention in Data Center Networks <br />
+              <em>Shuihai Hu, Yibo Zhu, Peng Cheng, Chuanxiong Guo, Kun Tan, Jitendra Padhye, Kai Chen </em><br />
+              CoNEXT 2017, <a href="https://www.cse.ust.hk/~kaichen/papers/conext17-tagger.pdf">PDF</a>
+            </p>
+
+            <p>Resilient Datacenter Load Balancing in the Wild <br />
+              <em>Hong Zhang, Junxue Zhang, Wei Bai, Kai Chen, Mosharaf Chowdhury </em><br />
+              SIGCOMM 2017, <a href="https://www.cse.ust.hk/~kaichen/papers/hermes-sigcomm17.pdf">PDF</a>
+            </p>
+
+            <p>Combining ECN and RTT for Datacenter Transport <br />
+              <em>Gaoxiong Zeng, Wei Bai, Ge Chen, Kai Chen, Dongsu Han, Yibo Zhu </em><br />
+              APNet 2017, <a href="https://www.cse.ust.hk/~kaichen/papers/apnet17--ear.pdf">PDF</a>
+            </p>
+
+            <p>Congestion Control for High-speed Extremely Shallowbuffered Datacenter Networks <br />
+              <em>Wei Bai, Kai Chen, Shuihai Hu, Kun Tan, Yongqiang Xiong </em><br />
+              APNet 2017, <a href="https://www.cse.ust.hk/~kaichen/papers/apnet17-bcc.pdf">PDF</a>
+            </p>
+
+            <p>Information-Agnostic Flow Scheduling for Commodity Data Centers <br />
+              <em>Wei Bai, Li Chen, Kai Chen, Dongsu Han, Chen Tian, Hao Wang </em><br />
+              IEEE/ACM Transactions on Networking (ToN), 2017, <a href="https://www.cse.ust.hk/~kaichen/papers/ton17-pias.pdf">PDF</a>
+            </p>
+
+            <p>Towards A Scalable, Fault-tolerant, High-performance Optical Data Center Architecture <br />
+              <em>Kai Chen, Xitao Wen, Xingyu Ma, Yan Chen, Yong Xia, Chengchen Hu, Qunfeng Dong, Yongqiang Liu </em><br />
+              IEEE/ACM Transactions on Networking (ToN), 2017, <a href="https://www.cse.ust.hk/~kaichen/papers/ton17-wavecube.pdf">PDF</a>
+            </p>
+
+            <p>Rate-Aware Flow Scheduling for Commodity Data Center Networks <br />
+              <em>Ziyang Li, Wei Bai, Kai Chen, Dongsu Han, Yiming Zhang, Dongsheng Li, Hongfang Yu </em><br />
+              INFOCOM 2017, <a href="https://www.cse.ust.hk/~kaichen/papers/infocom17-ras.pdf">PDF</a>
+            </p>
+
+            <p>Enabling Wide-spread Communications on Optical Fabric with MegaSwitch <br />
+              <em>Li Chen, Kai Chen, Joshua Zhu, Minlan Yu, George Porter, Chunming Qiao, Shan Zhong </em><br />
+              NSDI 2017, <a href="https://www.cse.ust.hk/~kaichen/papers/megaswitch-nsdi17.pdf">PDF</a>
+            </p>
+
+            <p>Enabling ECN over Generic Packet Scheduling <br />
+              <em>Wei Bai, Kai Chen, Li Chen, Changhoon Kim, Haitao Wu </em><br />
+              CoNEXT 2016, <a href="https://www.cse.ust.hk/~kaichen/papers/tcn-conext16.pdf">PDF</a>
+            </p>
+
+            <p>Stream: Decentralized Opportunistic Inter-Coflows Scheduling for Datacenter Networks <br />
+              <em>Hengky Susanto, Hao Jin, Kai Chen </em><br />
+              ICNP 2016, <a href="https://www.cse.ust.hk/~kaichen/papers/icnp16-stream.pdf">PDF</a>
+            </p>
+
+            <p>Guaranteeing Deadlines for Inter-Datacenter Transfers <br />
+              <em>Hong Zhang, Kai Chen, Wei Bai, Dongsu Han, Chen Tian, Hao Wang, Haibing Guan, Ming Zhang </em><br />
+              IEEE/ACM Transactions on Networking (ToN), 2016, <a href="https://www.cse.ust.hk/~kaichen/papers/amoeba-ton16.pdf">PDF</a>
+            </p>
+
+            <p>CODA: Toward Automatically Identifying and Scheduling Coflows in the Dark <br />
+              <em>Hong Zhang, Li Chen, Bairen Yi, Kai Chen, Mosharaf Chowdhury, Yanhui Geng </em><br />
+              SIGCOMM 2016, <a href="https://www.cse.ust.hk/~kaichen/papers/coda-sigcomm16.pdf">PDF</a>
+            </p>
+
+            <p>Scheduling Mix-flows in Commodity Datacenters with Karuna <br />
+              <em>Li Chen, Kai Chen, Wei Bai, Mohammad Alizadeh </em><br />
+              SIGCOMM 2016, <a href="https://www.cse.ust.hk/~kaichen/papers/karuna-sigcomm16.pdf">PDF</a>
+            </p>
+
+            <p>Enabling ECN in Multi-Service Multi-Queue Data Centers <br />
+              <em>Wei Bai, Li Chen, Kai Chen, Haitao Wu </em><br />
+              NSDI 2016, <a href="https://www.cse.ust.hk/~kaichen/papers/mqecn-nsdi16.pdf">PDF</a>
+            </p>
+
+            <p>Providing Bandwidth Guarantees, Work Conservation and Low Latency Simultaneously in the Cloud <br />
+              <em>Shuihai Hu, Wei Bai, Kai Chen, Chen Tian, Ying Zhang, Haitao Wu </em><br />
+              INFOCOM 2016, <a href="https://www.cse.ust.hk/~kaichen/papers/trinity-infocom16.pdf">PDF</a>
+            </p>
+
+            <p>OPTAS: Decentralized Flow Monitoring and Scheduling for Tiny Tasks <br />
+              <em>Ziyang Li, Yiming Zhang, Dongsheng Li, Kai Chen, Yuxing Peng </em><br />
+              INFOCOM 2016, <a href="https://www.cse.ust.hk/~kaichen/papers/optas-infocom16.pdf">PDF</a>
+            </p>
+
+            <p>Explicit Path Control in Commodity Data Centers: Design and Applications <br />
+              <em>Shuihai Hu, Kai Chen, Haitao Wu, Wei Bai, Chang Lan, Hao Wang, Hongze Zhao, Chuanxiong Guo </em><br />
+              IEEE/ACM Transactions on Networking (ToN), 2015, <a href="https://www.cse.ust.hk/~kaichen/papers/xpath-ton15.pdf">PDF</a>
+            </p>
+
+            <p>Towards Comprehensive Traffic Forecasting in Cloud Computing: Design and Application <br />
+              <em>Yang Peng, Kai Chen, Guohui Wang, Wei Bai, Yangming Zhao, Hao Wang, Yanhui Geng, Zhiqiang Ma, Lin Gu </em><br />
+              IEEE/ACM Transactions on Networking (ToN), 2015, <a href="https://www.cse.ust.hk/~kaichen/papers/hadoopwatch-ton15.pdf">PDF</a>
+            </p>
+
+            <p>FlowProphet: Generic and Accurate Traffic Prediction for Data-parallel Cluster Computing <br />
+              <em>Hao Wang, Li Chen, Kai Chen, Ziyang Li, Yiming Zhang, Haibin Guan, Zhengwei Qi, Dongsheng Li, Yanhui Geng </em><br />
+              ICDCS 2015, <a href="https://www.cse.ust.hk/~kaichen/papers/flowprophet-icdcs15.pdf">PDF</a>
+            </p>
+
+            <p>Information-Agnostic Flow Scheduling for Commodity Data Centers <br />
+              <em>Wei Bai, Li Chen, Kai Chen, Dongsu Han, Chen Tian, Hao Wang </em><br />
+              NSDI 2015, <a href="https://www.cse.ust.hk/~kaichen/papers/pias-nsdi15.pdf">PDF</a>
+            </p>
+
+            <p>Explicit Path Control in Commodity Data Centers: Design and Applications <br />
+              <em>Shuihai Hu, Kai Chen, Haitao Wu, Wei Bai, Chang Lan, Hao Wang, Hongze Zhao, Chuanxiong Guo </em><br />
+              NSDI 2015, <a href="https://www.cse.ust.hk/~kaichen/papers/xpath-nsdi15.pdf">PDF</a>
+            </p>
+
+            <p>Guaranteeing Deadlines for Inter-Datacenter Transfers <br />
+              <em>Hong Zhang, Kai Chen, Wei Bai, Dongsu Han, Chen Tian, Hao Wang, Haibing Guan, Ming Zhang </em><br />
+              EuroSys 2015, <a href="https://www.cse.ust.hk/~kaichen/papers/amoeba-eurosys15.pdf">PDF</a>
+            </p>
+
+            <p>RAPIER: Integrating Routing and Scheduling for Coflow-aware Data Center Networks <br />
+              <em>Yangming Zhao, Kai Chen, Wei Bai, Minlan Yu, Chen Tian, Yanhui Geng, Yiming Zhang, Dan Li, Sheng Wang </em><br />
+              INFOCOM 2015, <a href="https://www.cse.ust.hk/~kaichen/papers/rapier-infocom15.pdf">PDF</a>
+            </p>
+
+            <p>Joint VM Placement and Topology Optimization for Traffic Scalability in Dynamic Datacenter Networks <br />
+              <em>Yangming Zhao, Yifan Huang, Kai Chen, Minlan Yu, Sheng Wang, Dongsheng Li </em><br />
+              Computer Networks, 2015, <a href="https://www.cse.ust.hk/~kaichen/papers/vmpt-cn15.pdf">PDF</a>
+            </p>
+
+            <p>PIAS: Practical Information-Agnostic Flow Scheduling for Datacenter Networks <br />
+              <em>Wei Bai, Li Chen, Kai Chen, Dongsu Han, Chen Tian, Weicheng Sun </em><br />
+              HotNets 2014, <a href="https://www.cse.ust.hk/~kaichen/papers/pias-hotnets14.pdf">PDF</a>
+            </p>
+
+            <p>PAC: Taming TCP Incast Congestion Using Proactive ACK Control <br />
+              <em>Wei Bai, Kai Chen, Haitao Wu, Wuwei Lan, Yangming Zhao </em><br />
+              ICNP 2014, <a href="https://www.cse.ust.hk/~kaichen/papers/pac-icnp14.pdf">PDF</a>
+            </p>
+
+            <p>BitBill: Scalable, Robust, Verifiable Peer-to-Peer Billing for Cloud Computing <br />
+              <em>Li Chen, Kai Chen </em><br />
+              HotCloud 2014, <a href="https://www.cse.ust.hk/~kaichen/papers/bitbill-hotcloud14.pdf">PDF</a>
+            </p>
+
+            <p>HadoopWatch: A First Step Towards Comprehensive Traffic Forecasting in Cloud Computing <br />
+              <em>Yang Peng, Kai Chen, Guohui Wang, Wei Bai, Zhiqiang Ma, Lin Gu </em><br />
+              INFOCOM 2014, <a href="https://www.cse.ust.hk/~kaichen/papers/hadoopwatch-infocom14.pdf">PDF</a>
+            </p>
+
+            <p>Towards Minimal-Delay Deadline-Driven Data Center TCP <br />
+              <em>Li Chen, Shuihai Hu, Kai Chen, Haitao Wu </em><br />
+              HotNets 2013, <a href="https://www.cse.ust.hk/~kaichen/papers/mcp-hotnets13.pdf">PDF</a>
+            </p>
+
+            <p>OSA: An Optical Switching Architecture for Data Center Networks with Unprecedented Flexibility <br />
+              <em>Kai Chen, Ankit Singla, Atul Singh, Kishore Ramachandran, Lei Xu, Yueping Zhang, Xitao Wen, Yan Chen </em><br />
+              IEEE/ACM Transactions on Networking (ToN), 2013, <a href="https://www.cse.ust.hk/~kaichen/papers/osa-ton13.pdf">PDF</a>
+            </p>
+
+            <p>OSA: An Optical Switching Architecture for Data Center Networks with Unprecedented Flexibility <br />
+              <em>Kai Chen, Ankit Singla, Atul Singh, Kishore Ramachandran, Lei Xu, Yueping Zhang, Xitao Wen, Yan Chen </em><br />
+              NSDI 2012, <a href="https://www.cse.ust.hk/~kaichen/papers/osa-nsdi12.pdf">PDF</a>
+            </p>
+
+            <p>DAC: Generic and Automatic Address Configuration for Data Center Networks <br />
+              <em>Kai Chen, Chuanxiong Guo, Haitao Wu, Jing Yuan, Zhenqian Feng, Yan Chen, Songwu Lu, Wenfei Wu </em><br />
+              IEEE/ACM Transactions on Networking (ToN), 2012, <a href="https://www.cse.ust.hk/~kaichen/papers/dac-ton.pdf">PDF</a>
+            </p>
+
+            <p>Generic and Automatic Address Configuration for Data Center Networks <br />
+              <em>Kai Chen, Chuanxiong Guo, Haitao Wu, Jing Yuan, Zhenqian Feng, Yan Chen, Songwu Lu, Wenfei Wu </em><br />
+              SIGCOMM 2010, <a href="https://www.cse.ust.hk/~kaichen/papers/dac-sigcomm10.pdf">PDF</a>
+            </p>
+
+            <p>Where the Sidewalk Ends: Extending the Internet AS Graph Using Traceroutes From P2P Users <br />
+              <em>Kai Chen, David Choffnes, Rahul Potharaju, Yan Chen, Fabian Bustamante, Dan Pei, Yao Zhao </em><br />
+              CoNEXT 2009, <a href="https://www.cse.ust.hk/~kaichen/papers/sidewalk-conext09.pdf">PDF</a>
+            </p>
+
+            <p><br />
+              <em> </em><br />
+            </p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+  </body>
+
+</html>

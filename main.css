@@ -1,0 +1,50 @@
+/* Global Layout */
+html {font-family: 'SF Pro', 'Roboto', sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; text-size-adjust: 100%;}
+a {text-decoration: none; color: black; }
+.btn-primary {background-color: #452d69; border-color: #452d69}
+.btn-primary:hover, .btn-primary:visited, .btn-primary:focus, .btn-primary:active {background-color: #3f2269; border-color: #3f2269; box-shadow:  none}
+
+.container-fluid {
+	justify-content: center;
+}
+.section {
+	font-weight: 400;
+	font-size: 18px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: white;
+	min-height: 400px;
+	padding-top: 0rem;
+	margin-bottom: 1rem;
+}
+.section:last-child {
+	margin-bottom: 3rem;
+}
+.section-header {
+	background-image: url("images/0.svg");
+	background-size: cover;
+}
+.row {
+	max-width: 960px;
+	width: 100%;
+	justify-content: center;
+}
+.section-content .title {
+	font-weight: bold;
+	font-size: 1.7rem;
+	justify-content: center;
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
+.section-content .content {
+	margin-top: 2rem;
+	align-items: center;
+	text-align: justify;
+}	
+.section-content .content .image {
+	text-align: center;
+	width: 80%!;
+}	

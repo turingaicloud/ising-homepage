@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HKUST iSING Lab | Intelligent System and Networking research group">
+    <title>HKUST iSING Lab | Intelligent System and Networking research group</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/assets/favicon-32x32.png">
+    <link rel="shortcut icon" href="/images/assets/favicon.ico">
+    <link href="./main.css" rel="stylesheet">
+
+  </head>
+
+  <script type="module">
+    import { renderNode } from './js/skruv/vDOM.js'
+    import { header, footer } from './page.js'
+    renderNode(header, document.getElementById("header"))
+    renderNode(footer, document.getElementById("footer"))
+  </script>
+
+  <style>
+    .people .image p {
+      position: relative;
+      height: 0;
+      padding-bottom: 100%;
+      overflow: hidden;
+      /* a very ugly hack to make the pictures squared */
+    }
+  </style>
+  <body>
+    <div id="header"></div>
+    <div class="container-fluid">
+      <div class="section section-content people">
+      <div class="row content">
+        <div id="gridid" class="col-sm-12">
+          <h2 class="title">iSING Lab Members</h2>
+
+          <div class="row">
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/kai.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4><a href="https://www.cse.ust.hk/~kaichen/">Kai Chen</a></h4>
+              <p><i>Professor</i><br />
+                <i></i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/jinbin.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4><a href="https://huhuzizi.github.io/jinbinhu.github.io/index.html">Jinbin Hu</a></h4>
+              <p><i>Postdoc</i><br />
+                <i>Spring 2022</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/weiyan.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4><a href="https://weiyan-wang.github.io/">Weiyan Wang</a></h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2015</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/han.png" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Han Tian</h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2017</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/yiding.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4><a href="https://yidingwang.xyz">Yiding Wang</a></h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2017</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/xinchen.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Xinchen Wan</h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2018</i>
+              </p>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/chaoliang.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4><a href="https://hydrazeng.github.io/">Chaoliang Zeng</a></h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2018</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/liu.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Liu Yang</h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2018</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/hao.png" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4><a href="mailto:hwangdv@connect.ust.hk">Hao Wang</a></h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2019</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/zilong.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Zilong Wang</h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2019</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/di.jpeg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Di Chai</h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2019</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/yilun.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4><a href="https://kl4805.github.io/">Yilun Jin</a></h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2019</i>
+              </p>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/empty.png" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Hao Xu</h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2019</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/xudong.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Xudong Liao</h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2020</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/kaiqiang.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4><a href="https://www.cse.ust.hk/~kxuar/">Kaiqiang Xu</a></h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2020</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/yuxuan.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Yuxuan Qin</h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2020</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/zhenghang.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Zhenghang Ren</h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2020</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/wenxue.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Wenxue Li</h4>
+              <p><i>PhD student</i><br />
+                <i>Fall 2021</i>
+              </p>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/xiaodian.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Xiaodian Cheng</h4>
+              <p><i>MPhil student</i><br />
+                <i>Spring 2021</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/decang.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Decang Sun</h4>
+              <p><i>MPhil student</i><br />
+                <i>Fall 2021</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/xinyang.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4><a href="https://huangxyminel.netlify.app/">Xinyang Huang</a></h4>
+              <p><i>MPhil student</i><br />
+                <i>Fall 2021</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/shuowei.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Shuowei Cai</h4>
+              <p><i>MPhil student</i><br />
+                <i>Fall 2021</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/mingxuan.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4>Mingxuan Fan</h4>
+              <p><i>MPhil student</i><br />
+                <i>Spring 2022</i>
+              </p>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/xiaoyu.jpg" class="img-responsive" width="100%" /></p>
+              </div>
+              <h4><a href="mailto:huxiaoyu@ust.hk">Xiaoyu Hu</a></h4>
+              <p><i>Research assistant</i><br />
+                <i>Fall 2019</i>
+              </p>
+            </div>
+
+          </div>
+
+          <div class="title">iSING Lab Alumni</div>
+
+          <div class="row">
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/wei.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="https://baiwei0427.github.io/">Wei Bai</a></h4>
+              <p><i>PhD, 2017</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/li.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="https://li-ch.github.io/resume/">Li Chen</a></h4>
+              <p><i>PhD, 2018</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/hong.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="https://hongzhangblaze.github.io/">Hong Zhang</a></h4>
+              <p><i>PhD, 2019</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/shuihai.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="https://shuihaihu.github.io/">Shuihai Hu</a></h4>
+              <p><i>PhD, 2019</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/gaoxiong.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="https://gaoxiong.site/">Gaoxiong Zeng</a></h4>
+              <p><i>PhD, 2022</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/junxue.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="https://snowzjx.me/">Junxue Zhang</a></h4>
+              <p><i>PhD, 2022</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/hengky.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="http://www.cs.uml.edu/~hsusanto/">Hengky Susanto</a></h4>
+              <p><i>Postdoc, 2016</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/yuchao.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="http://yuchaozhang.weebly.com/">Yuchao Zhang</a></h4>
+              <p><i>Postdoc, 2018</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/wenxin.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="http://tjutanklab.com/liwenxin/">Wenxin Li</a></h4>
+              <p><i>Postdoc, 2019</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/yang.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Yang Peng</h4>
+              <p><i>MPhil, 2014</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/ye.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Ye Tao</h4>
+              <p><i>MPhil, 2014</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/justinas.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Justinas Lingys</h4>
+              <p><i>MPhil, 2018</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/baochen.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Baochen Qiao</h4>
+              <p><i>MPhil, 2018</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/jiacheng.jpeg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Jiacheng Xia</h4>
+              <p><i>MPhil, 2019</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/qinghe.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Qinghe Jing</h4>
+              <p><i>MPhil, 2019</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/bairen.jpeg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="https://github.com/byronyi">Bairen Yi</a></h4>
+              <p><i>MPhil, 2019</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/ge.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="https://princhenee.github.io/">Ge Chen</a></h4>
+              <p><i>MPhil, 2020</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/jingrong.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="https://github.com/crazyboycjr">Jingrong Chen</a></h4>
+              <p><i>MPhil, 2020</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/zhaoxiong.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Zhaoxiong Yang</h4>
+              <p><i>MPhil, 2020</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/zhaorong.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Zhaorong Liu</h4>
+              <p><i>MPhil, 2021</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/duowen.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Duowen Liu</h4>
+              <p><i>MPhil, 2021</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/zhuoyi.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Zhuoyi Peng</h4>
+              <p><i>MPhil, 2021</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/cengguang.jpeg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Cengguang Zhang</h4>
+              <p><i>MPhil, 2021</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/yiqing.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="https://miqianmimi.github.io/">Yiqing Ma</a></h4>
+              <p><i>MPhil, 2021</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/ding.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Ding Tang</h4>
+              <p><i>MPhil, 2022</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/deke.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Deke Guo</h4>
+              <p><i>Visiting scholar, NUDT</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/hangxing.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Hangxing Wu</h4>
+              <p><i>Visiting scholar, USTB</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/empty.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Dezun Dong</h4>
+              <p><i>Visiting scholar, NUDT</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/xuangou.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Xuangou Wu</h4>
+              <p><i>Visiting scholar, Anhui University of Technology</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/ziyang.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Ziyang Li</h4>
+              <p><i>Intern, NUDT</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/jinzhen.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Jinzhen Bao</h4>
+              <p><i>Intern, NUDT</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/empty.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Xuya Jia</h4>
+              <p><i>Intern, THU</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/empty.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Jingyue Zhao</h4>
+              <p><i>Intern, NUDT</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/zhuotao.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Zhuotao Liu</h4>
+              <p><i>Intern, UIUC</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/hao_sjtu.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4><a href="http://www.haow.ca/">Hao Wang</a></h4>
+              <p><i>Intern, SJTU</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/weiyu.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Weiyu Zhang</h4>
+              <p><i>Intern, SJTU</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/yangming.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Yangming Zhao</h4>
+              <p><i>Intern, UESTC</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/weicheng.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Weicheng Sun</h4>
+              <p><i>Intern, SJTU</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/zhouwang.png" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Zhouwang Fu</h4>
+              <p><i>Intern, SJTU</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/jinhao.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Hao Jin</h4>
+              <p><i>Intern, NJU</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/libin.jpg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Libin Liu</h4>
+              <p><i>Intern, Shandong University</i></p>
+              <ul style="overflow: hidden">
+
+              </ul>
+            </div>
+
+            <div class="col-sm-2 clearfix">
+              <div class="image">
+                <p><img src="./images/members/meilu.jpeg" class="img-responsive" width="100%" style="float: left" /></p>
+              </div>
+              <h4>Meilu Zhu</h4>
+              <p><i>Intern, Shenzhen University</i></p>
+              <ul style="overflow: hidden">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+  </body>
+
+</html>
