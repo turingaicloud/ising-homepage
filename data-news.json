@@ -1,0 +1,48 @@
+{
+    "news":[
+        {
+          "time": "May 2024",
+          "content": "Tassel accepted to SIGCOMM'24"
+        },
+        {
+          "time": "May 2024",
+          "content": "FlowSail accepted to IEEE/ACM Transactions on Networking"
+        },
+        {
+          "time": "Apr 2024",
+          "content": "Excalibur accepted to ATC'24"
+        },
+        {
+          "time": "Apr 2024",
+          "content": "Understanding AI workloads accepted to APNet'24"
+        },
+        {
+          "time": "Jan 2024",
+          "content": "Astraea accepted to EuroSys'24"
+        },
+        {
+          "time": "Dec 2023",
+          "content": "MLT and Herald accepted to NSDI'24"
+        },
+        {
+          "time": "Oct 2023",
+          "content": "Cepheus accepted to HPCA'24"
+        },
+        {
+          "time": "Oct 2023",
+          "content": "Proteus received Best Paper Award @ ICNP'23"
+        },
+        {
+          "time": "Sep 2023",
+          "content": "GeniBatch accepted to EuroSys'24"
+        },
+        {
+          "time": "Aug 2023",
+          "content": "CORA accepted to USENIX Security'24"
+        },
+        {
+          "time": "July 2023",
+          "content": "Proteus, DSA and FlowSail accepted to ICNP'23"
+        }
+      ]
+}

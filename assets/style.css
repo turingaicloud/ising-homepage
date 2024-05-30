@@ -1,0 +1,337 @@
+body, html{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    color: black;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    height: 100vh;
+}
+a {
+    color: black;
+}
+.text-colored {
+    background-image: linear-gradient(90deg,#9b5cff 0,#ee5396);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-underlined {
+    border-bottom: 1px solid black;
+}
+.tacc-button {
+    font-size: 0.8rem;
+    line-height: 2rem;
+    background-color: #452d69;
+    padding: 8px 16px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #452d69;
+    cursor: pointer;
+}
+.tacc-button:hover {
+    background-color: white!important;
+    border: 1px solid black!important;
+    color: black!important;
+}
+.button-secondary {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+.button-secondary:hover {
+    background-color: black!important;
+    border: 1px solid black!important;
+    color: white!important;
+}
+.section {
+    scroll-margin-top: 65px;
+}
+.section .section-title {
+    font-size: 2.6rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1408px){
+    .tacc-button {
+        font-size: .9rem;
+    }
+}
+
+
+.menubar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 99999;
+    top: 0;
+    background-color: white;
+}
+.menubar .logo {
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    height: 100px;
+}
+.menubar .logo img {
+    height: 36px;
+}
+@media screen and (max-width: 1024px){
+    .menubar .items {
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .menubar .logo {
+        margin-right: 0rem;
+        height: 80px;
+        padding-top: 18px;
+        padding-bottom: 0px;
+    }
+    .menubar .logo img {
+        height: 42px;
+    }
+}
+.menubar .item {
+    font-weight: 400;
+    color: #525252;
+}
+.menubar a {
+    color: #525252;
+}
+.menubar a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px 0px;
+    height: 400px;
+    background-image: linear-gradient(to right, #f9fcfc 0 40%, rgba(244, 244, 244, 0) 80%), url(bg2.webp);
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    background-size: cover;
+}
+.banner .banner-text {
+    text-align: right;
+    font-size: 3rem;
+    vertical-align: middle;
+    color: black;
+    font-weight: 300;
+    padding-right: 40px;
+}
+.banner .banner-text .banner-subtitle {
+    margin-top: 1.6rem;
+    font-size: 1.2rem;
+}
+.banner .button-secondary {
+    background-color: #f4f4f4;
+}
+
+@media screen and (max-width: 1408px){
+    .banner .banner-text {
+        font-size: 2.6rem;
+    }
+}
+@media screen and (max-width: 1215px){
+    .banner .banner-text {
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 1024px){
+    .banner {
+        background-position: 20%;
+        background-image: linear-gradient(rgba(244, 244, 244, 0.8), rgba(244, 244, 244, 0.3)), url("bg2.webp");
+        height: 500px;
+    }
+    .banner .banner-text {
+        text-align: center;
+        font-size: 2.4rem;
+        padding: 0px 20px;
+        font-weight: 400;
+    }
+    .overview .spacing {
+        display: none;
+    }
+}
+
+
+
+.overview {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+@media screen and (max-width: 1215px){
+    .overview .news-title {
+        font-size: 2rem;
+    }
+}
+.news {
+    list-style: none;
+}
+.news-entry {
+    display: flex;
+    align-items: flex-start;
+}
+.news-time {
+    align-self: flex-start;
+    flex-shrink: 0;
+    font-weight: 600;
+    font-size: .9rem;
+    padding: 0px 4px;
+    margin-right: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #452d6913;
+}
+
+
+.research img {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.research .item-title {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.publications .publication-entry, .publications #view-all-publications {
+    padding: 1.5rem 1rem;
+    border-top: 1px solid #e0e0e0;
+}
+.publications .publication-entry .item-author {
+    color:#525252;
+    margin-top: 6px;
+}
+
+.projects .project-subsection {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+.projects .text-large {
+    font-size: 3rem;
+    background-image: linear-gradient(90deg,#9b5cff 0,#ee5396);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.projects .description {
+    font-size: 1.1rem;
+}
+.projects .description p {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.projects .description p .name {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.projects .cards {
+    min-height: 8.8rem;
+    background-color: #e8e8e8;
+    padding: 1rem;
+}
+.projects a:hover .cards {
+    background-color: #d8d8d8;
+}
+.projects .cards-main {
+    background-color: #452d6913;
+}
+.projects .cards .item-title{
+    font-weight: bold;
+}
+.projects .cards .item-subtitle {
+    margin-top: 10px;
+    color: #525252;
+}
+.projects .cards .item-button {
+    margin-top: .5rem;
+}
+.projects .cards svg {
+    vertical-align:middle
+    position: relative;
+    top: -1px;
+}
+.projects .tacc-logo {
+    vertical-align: middle;
+    position: relative;
+    top: -5px;
+    height: 2.6rem;
+    margin-top: .5rem;
+}
+
+.people .section-subtitle {
+    line-height: 1.8rem;
+}
+.people .cards {
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+.people .cards-member {
+    text-align: center;
+}
+
+.people .member-name {
+    margin-top: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.people .member-title {
+    font-size: .8rem;
+}
+.people .member-photo {
+    position: relative;
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+}
+.people #view-past-members {
+    cursor: pointer;
+}
+.people .past-member {
+    display: none;
+}
+
+.footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid #e0e0e0;
+    background-color: #21272a;
+}
+.footer .logo img{
+    width: 140px;
+}
+.footer .item {
+    font-size: 0.8rem;
+    color: white;
+}
+.footer .item a {
+    color: white;
+}
+
+/* photo filter */
+
+
+/* The .image-container class needs to be applied to a div wrapped around the image you want to apply this filter to */
+.image-container {
+    position: relative;
+    line-height: 0;
+    background: #ffffff;
+  }
+  .image-container::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    mix-blend-mode: none;
+    background: #faaa00;
+    opacity: 0.13;
+  }

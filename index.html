@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1">
+    <title>iSING Lab at HKUST | Intelligent System and Networking Lab</title>
+    <link rel="stylesheet" href="./assets/bulma.min.css">
+    <link href="./assets/bulma-divider.min.css" rel="stylesheet">
+    <script src="./assets/jquery-3.6.0.min.js"></script>
+
+    <link href="./assets/style.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="menubar">
+        <div class="container">
+            <div class="columns is-multiline is-desktop is-align-items-center is-justify-content-center">
+                <div class="column is-narrow logo has-text-centered"><img src="./assets/ising-logo.png"></div>
+                <div class="column has-text-centered">
+                    <div class="columns is-mobile is-align-items-center items is-multiline">
+                        <div class="column is-narrow item"><a href="#overview">Overview</a></div>
+                        <div class="column is-narrow item"><a href="#research">Research</a></div>
+                        <div class="column is-narrow item"><a href="#projects">Projects</a></div>
+                        <div class="column is-narrow item"><a href="#people">People</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section banner">
+        <div class="container">
+            <div class="columns is-desktop">
+                <div class="column banner-text">
+                    <p><span class="text-colored">iSING Lab at HKUST</span><br> Intelligent System and Networking</p>
+                    <div class="banner-subtitle">In iSING Lab, we research data center networks, AI-centric networking and machine learning systems for large-scale AI applications.
+                    </div>
+                </div>
+                <div class="column banner-image"></div>
+            </div>        
+        </div>
+    </div>
+
+    <div class="section overview" id="overview">
+        <div class="container mt-4">
+            <div class="columns">
+                <div class="column content">
+                    <h2 class="section-title">About <span class="text-colored">iSING Lab</span></h2>
+                    <p>iSING Lab (intelligent System and networkING Lab) is from the Department of Computer Science and Engineering at HKUST, led by <a href="https://cse.hkust.edu.hk/~kaichen/" class="text-underlined">Prof. Kai Chen</a>.</p>
+
+                    <p>The team at iSING Lab focus on the following research areas:</p>
+                    
+                    <ul>
+                        <li>Data Center Networking</li>
+                        <li>High-performance Networking</li>
+                        <li>Networked Systems</li>
+                        <li>Machine Learning Systems</li>
+                        <li>Privacy-preserving Computing</li>
+                    </ul>
+
+                    <p>We have openings for PhD students and PostDocs with research interests in the areas above. You are welcome to contact us for details.</p>
+                </div>
+                <div class="column content">
+                    <h2 class="section-title news-title">Recent News</h2>
+                    <div class="news"></div>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+    <div class="section publications" id="research">
+        <div class="container">
+            <div class="section-title">Research Publications</div>
+        </div>
+    </div>
+    
+    <div class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title"><span class="text-colored">iSING Lab</span> Featured Projects</h2>
+            <div class="container project-subsection">
+                <div class="columns is-align-items-center mt-4">
+                    <div class="column description">
+                        <p><span class="name">TACC: Turing AI Computing Cloud</span> &nbsp;  <img class="tacc-logo" src="./assets/tacc-logo.png"> </p>
+                        <p>TACC (<a href="https://tacc.ust.hk/"">tacc.ust.hk</a>) manages clusters of over 160 GPU cards for AI research and education, with open access to HKUST and the research community.</p>
+                        <p>TACC accelerates AI applications with a high-performance and scalable infrastructure, including efficient ML systems for optimized model training,cluster scheduling for resource allocation, and AI-centric networking to reduce latency in AI workloads.
+                        </p>
+                    </div>
+                    <div class="column is-half">
+                        <div class="columns is-multiline is-mobile">
+                            <div class="column is-6">
+                                <p class="text-large">2</p>
+                                <p class="text-small"">TACC-managed clusters</p>
+                            </div>
+                            <div class="column is-6">
+                                <div class="text-large" id="stats-user">397</div>
+                                <p class="text-small"">Active TACC users since 2021/05</p>
+                            </div>
+                            <div class="column is-6">
+                                <p class="text-large" id="stats-task" >24,303</p>
+                                <p class="text-small"">Task process on TACC clusters</p>
+                            </div>
+                            <div class="column is-6">
+                                <p class="text-large" id="stats-gpu">235,739</p>
+                                <p class="text-small"">GPU hours used for ML tasks</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="columns is-align-items-center">
+                    <div class="column">
+                        <div class="columns is-multiline is-tablet">
+                            <div class="column is-6">
+                                <div class="cards cards-main">
+                                    <p class="item-title">Call for Pioneers</p>
+                                    <p class="item-subtitle">Early-adopter Application is now open! Join now and boost your AI research</p>
+                                    <div class="item-button columns is-desktop">
+                                        <div class="column is-9"><a class="tacc-button" href="https://tacc.ust.hk" target="_blank">Learn more about TACC@HKUST</a></div>                         
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column is-3">
+                                <a href="https://github.com/turingaicloud/quickstart" target="_blank">
+                                    <div class="cards">
+                                        <p class="item-title">
+                                            Docs and Turtorials &nbsp;&nbsp;
+                                            <svg style="vertical-align:middle" focusable="false" preserveAspectRatio="xMidYMid meet" fill="currentColor" width="16" height="16" viewBox="0 0 32 32" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L10 8 22.59 8 6 24.59 7.41 26 24 9.41 24 22 26 22 26 6 10 6z"></path></svg>
+                                        </p>
+                                        <p class="item-subtitle">Comprehensive docs and examples available for you to get started</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="column is-3">
+                                <a href="mailto:tacc-contact@lists.ust.hk">
+                                    <div class="cards">
+                                        <p class="item-title">
+                                            Contact TACC Team &nbsp;&nbsp;
+                                            <svg style="vertical-align:middle" focusable="false" preserveAspectRatio="xMidYMid meet" fill="currentColor" width="16" height="16" viewBox="0 0 32 32" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L10 8 22.59 8 6 24.59 7.41 26 24 9.41 24 22 26 22 26 6 10 6z"></path></svg>
+                                        </p>
+                                        <p class="item-subtitle">Get in touch with TACC operation team at HKUST to give feedbacks</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section people" id="people">
+        <div class="container">
+            <div class="columns is-align-items-center">
+                <div class="column is-half">
+                    <p class="section-title"><span class="text-colored">iSING Lab</span> Team</p> 
+                    <p class="section-subtitle">
+                        iSING members come from top universities in China. Graduates with PhDs and postdoctoral fellows typically join prestigious universities, research institutions, and technology companies both domestically and internationally, such as the University of Waterloo, HKUST (Guangzhou), Microsoft Research, and Huawei.
+                    </p>
+                </div>
+                <div class="column is-half"></div>
+            </div>       
+            <div class="columns members mt-4 is-multiline is-mobile"></div> 
+            <div class="columns past-members mt-4 is-multiline is-mobile"></div> 
+            <div class="columns is-justify-content-center is-mobile">
+                <div id="view-past-members" class="btn-view-member text-underlined">View Past Members</div>
+            </div> 
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="section footer">
+        <div class="container">
+            <div class="columns is-align-items-center">
+                <div class="logo column is-narrow"><img src="assets/ising-logo-white.png" /></div>
+                <div class="column item is-narrow"><a href="mailto:kaichen@cse.ust.hk">Contact Us</a></div>
+                <div class="column item is-narrow"><a href="https://ising.cse.ust.hk" target="_blank">About iSING Lab</a></div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            fetch('./data-publications.json')
+                .then(response => response.json())           
+                .then(data => {
+                    const entries = data.publications.map(e => `
+                        <div class="publication-entry">
+                            <div class="item-title">${e.title}</div>
+                            <div class="item-author">${e.authors}</div>
+                            <div class="item-author">${e.venue}</div>
+                        </div>
+                    `);
+                    entries.push(`
+                        <div id="view-all-publications">
+                            <p class="item-button"><a href="#" class="tacc-button button-secondary">View Next 5 Publications, ${data.publications.length} Total</a></p>
+                        </div>
+                    `);
+                    $('.publications .container').append(entries);
+                    $('.publication-entry').slice(5).hide();
+                    $('.publication-entry').slice(0, 5).addClass('shown');
+                    $('#view-all-publications').click(function(){
+                        $('.publication-entry:not(.shown)').slice(0, 5).addClass('shown').show();
+                    });
+                });
+
+            fetch("./data-members.json")
+            .then(response => response.json())
+            .then(data => {
+                const members = data.current.map(member => `
+                    <div class="column is-2-desktop is-6-mobile">
+                        <a href="${member.link?member.link:"#"}">
+                            <div class="cards cards-member">
+                                <div class="member-photo image-container"><img src="${member.photo_url}" width="100%"></div>
+                                <div class="member-name">${member.name}</div>
+                                <div class="member-title">${member.position}</div>
+                            </div>
+                        </a>
+                    </div>
+                `);
+                const pastMembers = data.past.map(member => `
+                    <div class="column is-2-desktop is-6-mobile past-member">
+                        <a href="${member.link?member.link:"#"}">
+                            <div class="cards cards-member">
+                                <div class="member-photo image-container"><a href="${member.link?member.link:"#"}"><img src="${member.photo_url}" width="100%"></div>
+                                <div class="member-name">${member.name}</div>
+                                <div class="member-title">${member.position}</div>
+                            </div>
+                        </a>
+                    </div>
+                `);
+                $('.people .container .members').append(members);
+                $('.people .container .past-members').append(pastMembers);
+                $('#view-past-members').click(function(){
+                    $('.people .container .past-member').toggle();
+                })
+            });
+
+            fetch('./data-news.json')
+                .then(response => response.json())
+                .then(data => {
+                    const news = data.news.map(e => `
+                        <p class="news-entry"><span class="news-time">${e.time}</span>${e.content}</p>
+                    `).slice(0, 8);
+                    $('.news').append(news);
+                });
+            
+            $('.banner').css('background-position', Math.floor(Math.random() * 100) + '%' + Math.floor(Math.random() * 100) + '%');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,360 @@
+{"current":[
+    {
+        "photo_url": "./members/kai.jpg",
+        "name": "Kai Chen",
+        "position": "Professor",
+        "link": "https://cse.hkust.edu.hk/~kaichen/"
+    },
+    {
+        "photo_url": "./members/jinbin.jpg",
+        "name": "Jinbin Hu",
+        "position": "Postdoc"
+    },
+    {
+        "photo_url": "./members/xinchen.jpg",
+        "name": "Xinchen Wan",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/liu.jpg",
+        "name": "Liu Yang",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/hao.png",
+        "name": "Hao Wang",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/zilong.jpg",
+        "name": "Zilong Wang",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/di.jpeg",
+        "name": "Di Chai",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/yilun.jpg",
+        "name": "Yilun Jin",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/empty.png",
+        "name": "Hao Xu",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/xudong.jpg",
+        "name": "Xudong Liao",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/kaiqiang.jpg",
+        "name": "Kaiqiang Xu",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/zhenghang.jpg",
+        "name": "Zhenghang Ren",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/wenxue.jpg",
+        "name": "Wenxue Li",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/decang.jpg",
+        "name": "Decang Sun",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/xinyang.jpg",
+        "name": "Xinyang Huang",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/yijun.jpg",
+        "name": "Yijun Sun",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/xinyu.jpg",
+        "name": "Xinyu Yang",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/feiyuan.png",
+        "name": "Feiyuan Zhang",
+        "position": "MPhil student"
+    },
+    {
+        "photo_url": "./members/xiaoyu.jpg",
+        "name": "Xiaoyu Hu",
+        "position": "Research assistant"
+    },
+    {
+        "photo_url": "./members/bowen.jpg",
+        "name": "Bowen Liu",
+        "position": "Visiting scholar"
+    }],
+
+    "past": [
+    {
+        "photo_url": "./members/wei.jpg",
+        "name": "Wei Bai",
+        "position": "PhD, 2017"
+    },
+    {
+        "photo_url": "./members/li.jpg",
+        "name": "Li Chen",
+        "position": "PhD, 2018"
+    },
+    {
+        "photo_url": "./members/hong.jpg",
+        "name": "Hong Zhang",
+        "position": "PhD, 2019"
+    },
+    {
+        "photo_url": "./members/shuihai.jpg",
+        "name": "Shuihai Hu",
+        "position": "PhD, 2019"
+    },
+    {
+        "photo_url": "./members/gaoxiong.jpg",
+        "name": "Gaoxiong Zeng",
+        "position": "PhD, 2022"
+    },
+    {
+        "photo_url": "./members/junxue.png",
+        "name": "Junxue Zhang",
+        "position": "PhD, 2022"
+    },
+    {
+        "photo_url": "./members/han.png",
+        "name": "Han Tian",
+        "position": "PhD 2023"
+    },
+    {
+        "photo_url": "./members/yiding.jpg",
+        "name": "Yiding Wang",
+        "position": "PhD 2023"
+    },
+    {
+        "photo_url": "./members/chaoliang.jpg",
+        "name": "Chaoliang Zeng",
+        "position": "PhD 2023"
+    },
+    {
+        "photo_url": "./members/weiyan.jpg",
+        "name": "Weiyan Wang",
+        "position": "PhD 2023"
+    },
+    {
+        "photo_url": "./members/hengky.jpg",
+        "name": "Hengky Susanto",
+        "position": "Postdoc, 2016"
+    },
+    {
+        "photo_url": "./members/yuchao.jpg",
+        "name": "Yuchao Zhang",
+        "position": "Postdoc, 2018"
+    },
+    {
+        "photo_url": "./members/wenxin.jpg",
+        "name": "Wenxin Li",
+        "position": "Postdoc, 2019"
+    },
+    {
+        "photo_url": "./members/yang.png",
+        "name": "Yang Peng",
+        "position": "MPhil, 2014"
+    },
+    {
+        "photo_url": "./members/ye.png",
+        "name": "Ye Tao",
+        "position": "MPhil, 2014"
+    },
+    {
+        "photo_url": "./members/justinas.jpg",
+        "name": "Justinas Lingys",
+        "position": "MPhil, 2018"
+    },
+    {
+        "photo_url": "./members/baochen.png",
+        "name": "Baochen Qiao",
+        "position": "MPhil, 2018"
+    },
+    {
+        "photo_url": "./members/jiacheng.jpeg",
+        "name": "Jiacheng Xia",
+        "position": "MPhil, 2019"
+    },
+    {
+        "photo_url": "./members/qinghe.png",
+        "name": "Qinghe Jing",
+        "position": "MPhil, 2019"
+    },
+    {
+        "photo_url": "./members/bairen.jpeg",
+        "name": "Bairen Yi",
+        "position": "MPhil, 2019"
+    },
+    {
+        "photo_url": "./members/ge.png",
+        "name": "Ge Chen",
+        "position": "MPhil, 2020"
+    },
+    {
+        "photo_url": "./members/jingrong.jpg",
+        "name": "Jingrong Chen",
+        "position": "MPhil, 2020"
+    },
+    {
+        "photo_url": "./members/zhaoxiong.jpg",
+        "name": "Zhaoxiong Yang",
+        "position": "MPhil, 2020"
+    },
+    {
+        "photo_url": "./members/zhaorong.jpg",
+        "name": "Zhaorong Liu",
+        "position": "MPhil, 2021"
+    },
+    {
+        "photo_url": "./members/duowen.jpg",
+        "name": "Duowen Liu",
+        "position": "MPhil, 2021"
+    },
+    {
+        "photo_url": "./members/zhuoyi.jpg",
+        "name": "Zhuoyi Peng",
+        "position": "MPhil, 2021"
+    },
+    {
+        "photo_url": "./members/cengguang.jpeg",
+        "name": "Cengguang Zhang",
+        "position": "MPhil, 2021"
+    },
+    {
+        "photo_url": "./members/yiqing.jpg",
+        "name": "Yiqing Ma",
+        "position": "MPhil, 2021"
+    },
+    {
+        "photo_url": "./members/ding.jpg",
+        "name": "Ding Tang",
+        "position": "MPhil, 2022"
+    },
+    {
+        "photo_url": "./members/shuowei.jpg",
+        "name": "Shuowei Cai",
+        "position": "MPhil 2023"
+    },
+    {
+        "photo_url": "./members/xiaodian.jpg",
+        "name": "Xiaodian Cheng",
+        "position": "MPhil 2023"
+    },
+    {
+        "photo_url": "./members/mingxuan.jpg",
+        "name": "Mingxuan Fan",
+        "position": "MPhil 2023"
+    },
+    {
+        "photo_url": "./members/yuxuan.jpg",
+        "name": "Yuxuan Qin",
+        "position": "MPhil 2024"
+    },
+    {
+        "photo_url": "./members/deke.png",
+        "name": "Deke Guo",
+        "position": "Visiting scholar, NUDT"
+    },
+    {
+        "photo_url": "./members/hangxing.png",
+        "name": "Hangxing Wu",
+        "position": "Visiting scholar, USTB"
+    },
+    {
+        "photo_url": "./members/empty.png",
+        "name": "Dezun Dong",
+        "position": "Visiting scholar, NUDT"
+    },
+    {
+        "photo_url": "./members/xuangou.png",
+        "name": "Xuangou Wu",
+        "position": "Visiting scholar, Anhui University of Technology"
+    },
+    {
+        "photo_url": "./members/ziyang.png",
+        "name": "Ziyang Li",
+        "position": "Intern, NUDT"
+    },
+    {
+        "photo_url": "./members/jinzhen.png",
+        "name": "Jinzhen Bao",
+        "position": "Intern, NUDT"
+    },
+    {
+        "photo_url": "./members/empty.png",
+        "name": "Xuya Jia",
+        "position": "Intern, THU"
+    },
+    {
+        "photo_url": "./members/empty.png",
+        "name": "Jingyue Zhao",
+        "position": "Intern, NUDT"
+    },
+    {
+        "photo_url": "./members/zhuotao.png",
+        "name": "Zhuotao Liu",
+        "position": "Intern, UIUC"
+    },
+    {
+        "photo_url": "./members/hao_sjtu.jpg",
+        "name": "Hao Wang",
+        "position": "Intern, SJTU"
+    },
+    {
+        "photo_url": "./members/weiyu.png",
+        "name": "Weiyu Zhang",
+        "position": "Intern, SJTU"
+    },
+    {
+        "photo_url": "./members/yangming.png",
+        "name": "Yangming Zhao",
+        "position": "Intern, UESTC"
+    },
+    {
+        "photo_url": "./members/weicheng.png",
+        "name": "Weicheng Sun",
+        "position": "Intern, SJTU"
+    },
+    {
+        "photo_url": "./members/zhouwang.png",
+        "name": "Zhouwang Fu",
+        "position": "Intern, SJTU"
+    },
+    {
+        "photo_url": "./members/jinhao.jpg",
+        "name": "Hao Jin",
+        "position": "Intern, NJU"
+    },
+    {
+        "photo_url": "./members/libin.jpg",
+        "name": "Libin Liu",
+        "position": "Intern, Shandong University"
+    },
+    {
+        "photo_url": "./members/meilu.jpeg",
+        "name": "Meilu Zhu",
+        "position": "Intern, Shenzhen University"
+    },
+    {
+        "photo_url": "./members/lihuan.jpg",
+        "name": "Lihuan Hui",
+        "position": "Intern, CSU"
+    }
+]}

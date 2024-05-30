@@ -1,0 +1,639 @@
+{
+    "publications":[
+      {
+          "title": "Fast, Scalable, and Accurate Rate Limiter for RDMA NICs",
+          "authors": "Zilong Wang, Xinchen Wan, Luyang Li, Yijun Sun, Peng Xie, Xin Wei, Qingsong Ning, Junxue Zhang, Kai Chen",
+          "venue": "ACM SIGCOMM 2024"
+      },
+      {
+          "title": "Efficient Decentralized Federated Singular Vector Decomposition",
+          "authors": "Di Chai, Junxue Zhang, Liu Yang, Yilun Jin, Leye Wang, Kai Chen, Qiang Yang",
+          "venue": "USENIX ATC 2024"
+      },
+      {
+          "title": "FlowSail: Fine-grained and Practical Flow Control for Datacenter Networks",
+          "authors": "Wenxue Li, Chaoliang Zeng, Jinbin Hu, Kai Chen",
+          "venue": "IEEE/ACM Transactions on Networking 2024"
+      },
+      {
+          "title": "Load Balancing with Multi-level Signals for Lossless Datacenter Networks",
+          "authors": "Jinbin Hu, Chaoliang Zeng, Zilong Wang, Junxue Zhang, Kun Guo, Hong Xu, Jiawei Huang, Kai Chen",
+          "venue": "IEEE/ACM Transactions on Networking 2024"
+      },
+      {
+          "title": "Understanding Communication Characteristics of Distributed Training",
+          "authors": "Wenxue Li, Xiangzhou Liu, Yuxuan Li, Yilun Jin, Han Tian, Zhizhen Zhong, Guyue Liu, Ying Zhang, Kai Chen",
+          "venue": "APNet 2024"
+      },
+      {
+          "title": "Towards Domain-Specific Network Transport for Distributed DNN Training ",
+          "authors": "Hao Wang, Han Tian, Jingrong Chen, Xinchen Wan, Jiacheng Xia, Gaoxiong Zeng, Wei Bai, Junchen Jiang, Yong Wang, Kai Chen",
+          "venue": "USENIX NSDI 2024"
+      },
+      {
+          "title": "Accelerating Neural Recommendation Training with Embedding Scheduling ",
+          "authors": "Chaoliang Zeng, Xudong Liao, Xiaodian Cheng, Han Tian, Xinchen Wan, Hao Wang, Kai Chen",
+          "venue": "USENIX NSDI 2024"
+      },
+      {
+          "title": "Flow Scheduling with Imprecise Knowledge ",
+          "authors": "Wenxin Li, Xin He, Yuan Liu, Keqiu Li, Kai Chen, Zhao Ge, Zewei Guan, Heng Qi, Song Zhang, Guyue Liu",
+          "venue": "USENIX NSDI 2024"
+      },
+      {
+          "title": "Cepheus: Accelerating Datacenter Applications with High-Performance RoCE-Capable Multicast ",
+          "authors": "Wenxue Li, Junyi Zhang, Yufei Liu, Gaoxiong Zeng, Zilong Wang, Chaoliang Zeng,  Pengpeng Zhou, Qiaoling Wang, Kai Chen",
+          "venue": "IEEE HPCA 2024"
+      },
+      {
+          "title": "Accelerating Secure Collaborative Machine Learning with Protocol-Aware RDMA ",
+          "authors": "Zhenghang Ren, Mingxuan Fan, Zilong Wang, Junxue Zhang, Chaoliang Zeng,  Zhicong Huang, Cheng Hong, Kai Chen",
+          "venue": "USENIX Security 2024"
+      },
+      {
+          "title": "Astraea: Towards Fair and Efficient Learning-based Congestion Control ",
+          "authors": "Xudong Liao, Han Tian, Chaoliang Zeng, Xinchen Wan, Kai Chen",
+          "venue": "ACM EuroSys 2024"
+      },
+      {
+          "title": "Accelerating Privacy-Preserving Machine Learning With GeniBatch  ",
+          "authors": "Xinyang Huang, Junxue Zhang, Xiaodian Cheng, Hong Zhang, Yilun Jin, Shuihai Hu, Han Tian, Kai Chen",
+          "venue": "ACM EuroSys 2024"
+      },
+      {
+          "title": "Towards Fine-grained and Practical Flow Control for Datacenter Networks ",
+          "authors": "Wenxue Li, Chaoliang Zeng, Jinbin Hu, Kai Chen",
+          "venue": "IEEE ICNP 2023"
+      },
+      {
+          "title": "Enabling Load Balancing for Lossless Datacenters ",
+          "authors": "Jinbin Hu, Chaoliang Zeng, Zilong Wang, Junxue Zhang, Kun Guo, Hong Xu, Jiawei Huang, Kai Chen",
+          "venue": "IEEE ICNP 2023 (Best Paper Award)"
+      },
+      {
+          "title": "Preemptive Switch Memory Usage to Accelerate Training Jobs with Shared In-Network Aggregation ",
+          "authors": "Hao Wang, Yuxuan Qin, ChonLam Lao, Yanfang Le, Wenfei Wu, Kai Chen",
+          "venue": "IEEE ICNP 2023"
+      },
+      {
+          "title": "Transferable Graph Structure Learning for Graph-based Traffic Forecasting Across Cities",
+          "authors": "Yilun Jin, Kai Chen, Qiang Yang",
+          "venue": "ACM KDD 2023"
+      },
+      {
+          "title": "TrustGeo: Uncertainty-Aware Dynamic Graph Learning for Trustworthy IP Geolocation",
+          "authors": "Wenxin Tai, Bin Chen, Fan Zhou, Ting Zhong, Goce Trajcevski, Yong Wang, Kai Chen",
+          "venue": "ACM KDD 2023"
+      },
+      {
+          "title": "Scalable and Efficient Full-Graph GNN Training for Large Graphs ",
+          "authors": "Xinchen Wan, Kaiqiang Xu, Xudong Liao, Yilun Jin, Kai Chen, Xin Jin",
+          "venue": "ACM SIGMOD 2023"
+      },
+      {
+          "title": "Accurate and Scalable Rate Limiter for RDMA NICs ",
+          "authors": "Zilong Wang, Xinchen Wan, Chaoliang Zeng, Kai Chen",
+          "venue": "ACM APNet 2023"
+      },
+      {
+          "title": "Scaling Switch-driven Flow Control with Aquarius ",
+          "authors": "Wenxue Li, Chaoliang Zeng, Jinbin Hu, Kai Chen",
+          "venue": "ACM APNet 2023"
+      },
+      {
+          "title": "Egeria: Efficient DNN Training with Knowledge-Guided Layer Freezing ",
+          "authors": "Yiding Wang, Decang Sun, Kai Chen, Fan Lai, Mosharaf Chowdhury",
+          "venue": "ACM EuroSys 2023"
+      },
+      {
+          "title": "Tabi: An Efficient Multi-Level Inference System for Large Language Models ",
+          "authors": "Yiding Wang, Kai Chen, Haisheng Tan, Kun Guo",
+          "venue": "ACM EuroSys 2023"
+      },
+      {
+          "title": "FLASH: Towards a High-performance Hardware Acceleration Architecture for Cross-silo Federated Learning ",
+          "authors": "Junxue Zhang, Xiaodian Cheng, Wei Wang, Liu Yang, Jinbin Hu, Kai Chen",
+          "venue": "USENIX NSDI 2023"
+      },
+      {
+          "title": "SRNIC: A Scalable Architecture for RDMA NICs ",
+          "authors": "Zilong Wang, Layong Luo, Qingsong Ning, Chaoliang Zeng, Wenxue Li, Xinchen Wan, Peng Xie, Tao Feng, Ke Cheng, Xiongfei Geng,",
+          "venue": "Weicheng Ling, Kejia Huo, Pingbo An, Kui Ji, Shideng Zhang, Bin Xu, Ruiqing Feng, Tao Ding, Kai Chen, Chuanxiong Guo\n USENIX NSDI 2023"
+      },
+      {
+          "title": "Spine: An Efficient DRL-based Congestion Control with Ultra-low Overhead ",
+          "authors": "Han Tian,  Xudong Liao, Chaoliang Zeng, Junxue Zhang, Kai Chen",
+          "venue": "ACM CoNEXT 2022"
+      },
+      {
+          "title": "DGS: Communication-Efficient Graph Sampling for Distributed GNN Training ",
+          "authors": "Xinchen Wan, Kai Chen, Yiming Zhang",
+          "venue": "IEEE ICNP 2022"
+      },
+      {
+          "title": "LiteFlow: Towards High-performance Adaptive Neural Networks for Kernel Datapath ",
+          "authors": "Junxue Zhang, Chaoliang Zeng, Hong Zhang, Shuihai Hu, Kai Chen",
+          "venue": "ACM SIGCOMM 2022"
+      },
+      {
+          "title": "Selective Cross-city Transfer Learning for Traffic Prediction via Source City Region Re-weighting ",
+          "authors": "Yilun Jin, Kai Chen, Qiang Yang",
+          "venue": "ACM KDD 2022"
+      },
+      {
+          "title": "Practical Lossless Federated Singular Vector Decomposition Over Billion-Scale Data ",
+          "authors": "Di Chai, Leye Wang, Junxue Zhang, Liu Yang, Shuowei Cai, Kai Chen, Qiang Yang",
+          "venue": "ACM KDD 2022"
+      },
+      {
+          "title": "Connecting the Hosts: Street-Level IP Geolocation with Graph Neural Networks ",
+          "authors": "Zhiyuan Wang, Fan Zhou, Wenxuan Zeng, Goce Trajcevski, Chunjing Xiao, Yong Wang, Kai Chen",
+          "venue": "ACM KDD 2022"
+      },
+      {
+          "title": "Herald: An Embedding Scheduler for Distributed Embedding Model Training ",
+          "authors": "Chaoliang Zeng, Xiaodian Cheng, Han Tian, Hao Wang, Kai Chen",
+          "venue": "ACM APNet 2022"
+      },
+      {
+          "title": "Load Balancing in PFC-enabled Datacenter Networks ",
+          "authors": "Jinbin Hu, Chaoliang Zeng, Zilong Wang, Hong Xu, Jiawei Huang, Kai Chen",
+          "venue": "ACM APNet 2022"
+      },
+      {
+          "title": "FAERY: An FPGA-accelerated Embedding-based Retrieval System ",
+          "authors": "Chaoliang Zeng, Layong Luo, Qingsong Ning, Yaodong Han, Yuhang Jiang, Ding Tang, Zilong Wang, Kai Chen, Chuanxiong Guo",
+          "venue": "USENIX OSDI 2022"
+      },
+      {
+          "title": "Congestion Control for Cross-Datacenter Networks ",
+          "authors": "Gaoxiong Zeng, Wei Bai, Ge Chen, Kai Chen, Dongsu Han, Yibo Zhu, Lei Cui",
+          "venue": "IEEE/ACM Transactions on Networking 2022"
+      },
+      {
+          "title": "Multi-Objective Congestion Control ",
+          "authors": "Yiqing Ma, Han Tian, Xudong Liao, Junxue Zhang, Weiyan Wang, Kai Chen, Xin Jin",
+          "venue": "ACM EuroSys 2022"
+      },
+      {
+          "title": "Enabling Edge-Cloud Video Analytics for Robotic Applications ",
+          "authors": "Yiding Wang, Weiyan Wang, Duowen Liu, Xin Jin, Junchen Jiang, Kai Chen",
+          "venue": "IEEE Transactions on Cloud Computing 2022"
+      },
+      {
+          "title": "Enabling ECN for Datacenter Networks with RTT Variations ",
+          "authors": "Junxue Zhang, Wei Bai, Kai Chen",
+          "venue": "IEEE Transactions on Cloud Computing 2022"
+      },
+      {
+          "title": "Sphinx: Enabling Privacy-Preserving Online Learning over the Cloud ",
+          "authors": "Han Tian, Chaoliang Zeng, Zhenghang Ren, Di Chai, Junxue Zhang, Kai Chen, Qiang Yang",
+          "venue": "IEEE Symposium on Security and Privacy (Oakland) 2022"
+      },
+      {
+          "title": "Tiara: A Scalable and Efficient Hardware Acceleration Architecture for Stateful Layer-4 Load Balancing ",
+          "authors": "Chaoliang Zeng, Layong Luo, Zilong Wang, Luyang Li, Wenchen Han, Nan Chen, Lebing Wan, Lichao Liu,",
+          "venue": "Zhipeng Ding, Xiongfei Geng, Tao Feng, Feng Ning, Kai Chen, Chuanxiong Guo\n  USENIX NSDI 2022"
+      },
+      {
+          "title": "Addressing Network Bottlenecks with Divide-and-Shuffle Synchronization for Distributed DNN Training ",
+          "authors": "Weiyan Wang, Cengguang Zhang, Liu Yang, Kai Chen, Kun Tan",
+          "venue": "IEEE INFOCOM 2022"
+      },
+      {
+          "title": "AutoByte: Automatic Configuration for Optimal Communication Scheduling in DNN Training ",
+          "authors": "Yiqing Ma, Hao Wang, Yiming Zhang, Kai Chen",
+          "venue": "IEEE INFOCOM 2022"
+      },
+      {
+          "title": "Cutting Tail Latency in Commodity Datacenters with Cloudburst ",
+          "authors": "Gaoxiong Zeng, Li Chen, Bairen Yi, Kai Chen",
+          "venue": "IEEE INFOCOM 2022"
+      },
+      {
+          "title": "Aeolus: A Building Block for Proactive Transport in Datacenter Networks ",
+          "authors": "Shuihai Hu, Wei Bai, Gaoxiong Zeng, Zilong Wang, Baochen Qiao, Kai Chen, Kun Tan, Yi Wang",
+          "venue": "IEEE/ACM Transactions on Networking 2021"
+      },
+      {
+          "title": "Improving Availability of Vertical Federated Learning ",
+          "authors": "Zhenghang Ren, Liu Yang, Kai Chen",
+          "venue": "ACM Transactions on Intelligent Systems and Technology 2021"
+      },
+      {
+          "title": "Efficient Federated Matrix Factorization against Inference Attacks ",
+          "authors": "Di Chai, Leye Wang, Kai Chen, Qiang Yang",
+          "venue": "ACM Transactions on Intelligent Systems and Technology 2021"
+      },
+      {
+          "title": "FlashPass: Proactive Congestion Control for Shallow-buffered WAN ",
+          "authors": "Gaoxiong Zeng, Jianxin Qiu, Yifei Yuan, Hongqiang Liu, Kai Chen",
+          "venue": "IEEE ICNP 2021"
+      },
+      {
+          "title": "RPO: Receiver-driven Transport Protocol Using Opportunistic Transmission in Data Center ",
+          "authors": "Jiawei Huang, Jinbin Hu, Zhaoyi Li, Wenchao Jiang, Kai Chen, Jianxin Wang, Tian He",
+          "venue": "IEEE ICNP 2021"
+      },
+      {
+          "title": "Aegis: A Trusted, Automatic and Accurate Verification Framework for Vertical Federated Learning ",
+          "authors": "Cengguang Zhang, Junxue Zhang, Di Chai, Kai Chen",
+          "venue": "FL-IJCAI 2021, Intl Workshop on Federated Learning for User Privacy & Data Confidentiality (Best Application Paper Award)."
+      },
+      {
+          "title": "HAFLO: GPU-Based Acceleration for Federated Logistic Regression ",
+          "authors": "Xiaodian Chen, Wanhang Lu, Xinyang Huang, Shuihai Hu, Kai Chen",
+          "venue": "FL-IJCAI 2021, Intl Workshop on Federated Learning for User Privacy & Data Confidentiality."
+      },
+      {
+          "title": "Providing Bandwidth Guarantees, Work Conservation and Low Latency Simultaneously in the Cloud ",
+          "authors": "Shuihai Hu, Wei Bai, Kai Chen, Chen Tian, Ying Zhang, Haitao Wu",
+          "venue": "IEEE Transactions on Cloud Computing 2021"
+      },
+      {
+          "title": "Hone: Mitigating Stragglers in Distributed Stream Processing with Tuple Scheduling ",
+          "authors": "Wenxin Li, Duowen Liu, Kai Chen, Keqiu Li, Heng Qi",
+          "venue": "IEEE Transactions on Parallel and Distributed Systems (TPDS) 2021"
+      },
+      {
+          "title": "BDS+: An Inter-Datacenter Data Replication System With Dynamic Bandwidth Separation ",
+          "authors": "Yuchao Zhang, Junchen Jiang, Wendong Wang, Ke Xu, Youjian Zhao, Martin Reed, Kai Chen, Haiyang Wang, Guang Yao",
+          "venue": "IEEE/ACM Transactions on Networking 2021"
+      },
+      {
+          "title": "Enabling Edge-Cloud Video Analytics for Robotic Applications ",
+          "authors": "Yiding Wang, Weiyan Wang, Duowen Liu, Xin Jin, Junchen Jiang, Kai Chen",
+          "venue": "IEEE INFOCOM 2021"
+      },
+      {
+          "title": "Jellyfish: Locality-sensitive Subflow Sketching ",
+          "authors": "Yongquan Fu, An Lun, Siqi Shen, Kai Chen",
+          "venue": "IEEE INFOCOM 2021"
+      },
+      {
+          "title": "One More Config is Enough: Saving (DC)TCP for High-speed Extremely Shallow-buffered Datacenters ",
+          "authors": "Wei Bai, Shuihai Hu, Kai Chen, Kun Tan, Yongqiang Xiong",
+          "venue": "IEEE/ACM Transactions on Networking 2020"
+      },
+      {
+          "title": "Aeolus: A Building Block for Proactive Transport in Datacenters ",
+          "authors": "Shuihai Hu, Wei Bai, Gaoxiong Zeng, Zilong Wang, Baochen Qiao, Kai Chen, Kun Tan, Yi Wang",
+          "venue": "ACM SIGCOMM 2020"
+      },
+      {
+          "title": "Secure Federated Matrix Factorization ",
+          "authors": "Di Chai, Leye Wang, Kai Chen, Qiang Yang",
+          "venue": "IEEE Intelligent Systems 2020"
+      },
+      {
+          "title": "FPGA-Based Hardware Accelerator of Homomorphic Encryption for Efficient Federated Learning ",
+          "authors": "Zhaoxiong Yang, Shuihai Hu, Kai Chen",
+          "venue": "FL-IJCAI 2020, Intl Workshop on Federated Learning for User Privacy & Data Confidentiality (Best Student Paper Award)."
+      },
+      {
+          "title": "Resilient Allreduce Tree for Distributed Machine Learning ",
+          "authors": "Xinchen Wan, Hong Zhang, Hao Wang, Shuihai Hu, Junxue Zhang, Kai Chen",
+          "venue": "ACM APNet 2020"
+      },
+      {
+          "title": "One More Config is Enough: Saving (DC)TCP for High-speed Extremely Shallow-buffered Datacenters ",
+          "authors": "Wei Bai, Shuihai Hu, Kai Chen, Kun Tan, Yongqiang Xiong",
+          "venue": "IEEE INFOCOM 2020"
+      },
+      {
+          "title": "Clustering-preserving Network Flow Sketching ",
+          "authors": "Yongquan Fu, Dongsheng Li, Siqi Shen, Yiming Zhang, Kai Chen",
+          "venue": "IEEE INFOCOM 2020"
+      },
+      {
+          "title": "Enabling ECN for Datacenter Networks with RTT Variations ",
+          "authors": "Junxue Zhang, Wei Bai, Kai Chen",
+          "venue": "ACM CoNEXT 2019"
+      },
+      {
+          "title": "Congestion Control for Cross-Datacenter Networks ",
+          "authors": "Gaoxiong Zeng, Wei Bai, Ge Chen, Kai Chen, Dongsu Han, Yibo Zhu, Lei Cui",
+          "venue": "IEEE ICNP 2019"
+      },
+      {
+          "title": "Rethinking Transport Layer Design for Distributed Machine Learning ",
+          "authors": "Jiacheng Xia, Gaoxiong Zeng, Junxue Zhang, Weiyan Wang, Wei Bai, Junchen Jiang, Kai Chen",
+          "venue": "ACM APNet 2019"
+      },
+      {
+          "title": "Quantifying the Performance of Federated Transfer Learning ",
+          "authors": "Qinghe Jing, Weiyan Wang, Junxue Zhang, Han Tian, Kai Chen",
+          "venue": "FL-IJCAI 2019, the 1st Intl Workshop on Federated Learning for User Privacy & Data Confidentiality. (Best Student Paper Award)"
+      },
+      {
+          "title": "Secure Federated Matrix Factorization ",
+          "authors": "Di Chai, Leye Wang, Kai Chen, Qiang Yang",
+          "venue": "FL-IJCAI 2019, the 1st Intl Workshop on Federated Learning for User Privacy & Data Confidentiality."
+      },
+      {
+          "title": "Tagger: Practical PFC Deadlock Prevention in Data Center Networks ",
+          "authors": "Shuihai Hu, Yibo Zhu, Peng Cheng, Chuanxiong Guo, Kun Tan, Jitendra Padhye, Kai Chen",
+          "venue": "IEEE/ACM Transactions on Networking, 2019"
+      },
+      {
+          "title": "Ursa: Hybrid Block Storage for Cloud-Scale Virtual Disks ",
+          "authors": "Huiba Li, Yiming Zhang, Zhiming Zhang, Shengyun Liu, Peng Huang, Dongsheng Li, Zheng Qin, Kai Chen, Yongqiang Xiong",
+          "venue": "ACM EuroSys 2019"
+      },
+      {
+          "title": "AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization ",
+          "authors": "Li Chen, Justinas Lingys, Kai Chen, Feng Liu",
+          "venue": "ACM SIGCOMM 2018"
+      },
+      {
+          "title": "Augmenting Proactive Congestion Control with Aeolus ",
+          "authors": "Shuihai Hu, Wei Bai, Baochen Qiao, Kai Chen, Kun Tan",
+          "venue": "APNet 2018"
+      },
+      {
+          "title": "Pas de deux: Shape the Circuits, and Shape the Apps too! ",
+          "authors": "Hong Zhang, Kai Chen, Mosharaf Chowdhury",
+          "venue": "APNet 2018"
+      },
+      {
+          "title": "Neural Network Meets DCN: Traffic-driven Topology Adaptation with Deep Learning ",
+          "authors": "Mowei Wang, Yong Cui, Shihan Xiao, Xin Wang, Dan Yang, Kai Chen, Jun Zhu",
+          "venue": "ACM Sigmetrics 2018"
+      },
+      {
+          "title": "BDS: A Centralized Near-Optimal Overlay Network for Inter-Datacenter Data Replication ",
+          "authors": "Yuchao Zhang, Junchen Jiang, Ke Xu, Xiaohui Nie, Martin Reed, Haiyang Wang, Guang Yao, Miao Zhang, Kai Chen",
+          "venue": "ACM EuroSys 2018"
+      },
+      {
+          "title": "PowerMan: An Out-of-Band Management Network for Datacenters using Power Line Communication ",
+          "authors": "Li Chen, Jiacheng Xia, Bairen Yi, Kai Chen",
+          "venue": "USENIX NSDI 2018"
+      },
+      {
+          "title": "Enabling Work-conserving Bandwidth Guarantees for Multi-tenant Datacenters via Dynamic Tenant-Queue Binding ",
+          "authors": "Zhuotao Liu, Kai Chen, Haitao Wu, Shuihai Hu, Yih-Chun Hu, Yi Wang, Gong Zhang",
+          "venue": "IEEE INFOCOM 2018"
+      },
+      {
+          "title": "Tagger: Practical PFC Deadlock Prevention in Data Center Networks ",
+          "authors": "Shuihai Hu, Yibo Zhu, Peng Cheng, Chuanxiong Guo, Kun Tan, Jitendra Padhye, Kai Chen",
+          "venue": "ACM CoNEXT, Seoul, South Korea, December 2017"
+      },
+      {
+          "title": "Resilient Datacenter Load Balancing in the Wild ",
+          "authors": "Hong Zhang, Junxue Zhang, Wei Bai, Kai Chen, Mosharaf Chowdhury",
+          "venue": "ACM SIGCOMM, Los Angeles, CA, August 2017"
+      },
+      {
+          "title": "Towards Zero Copy Dataflows using RDMA ",
+          "authors": "Bairen Yi, Li Chen, Jiacheng Xia, Kai Chen",
+          "venue": "System Demo@ACM SIGCOMM'17 \n   Merged into TensorFlow (TF-GDR)."
+      },
+      {
+          "title": "Combining ECN and RTT for Datacenter Transport ",
+          "authors": "Gaoxiong Zeng, Wei Bai, Ge Chen, Kai Chen, Dongsu Han, Yibo Zhu",
+          "venue": "APNet, Hong Kong, China, August 2017"
+      },
+      {
+          "title": "Congestion Control for High-speed Extremely Shallowbuffered Datacenter Networks ",
+          "authors": "Wei Bai, Kai Chen, Shuihai Hu, Kun Tan, Yongqiang Xiong",
+          "venue": "APNet, Hong Kong, China, August 2017"
+      },
+      {
+          "title": "PIAS: Practical Information-Agnostic Flow Scheduling for Commodity Data Centers ",
+          "authors": "Wei Bai, Li Chen, Kai Chen, Dongsu Han, Chen Tian, Hao Wang",
+          "venue": "IEEE/ACM Transactions on Networking (ToN), 2017"
+      },
+      {
+          "title": "Towards A Scalable, Fault-tolerant, High-performance Optical Data Center Architecture ",
+          "authors": "Kai Chen, Xitao Wen, Xingyu Ma, Yan Chen, Yong Xia, Chengchen Hu, Qunfeng Dong, Yongqiang Liu",
+          "venue": "IEEE/ACM Transactions on Networking (ToN), 2017"
+      },
+      {
+          "title": "Guaranteeing Deadlines for Inter-Datacenter Transfers ",
+          "authors": "Hong Zhang, Kai Chen, Wei Bai, Dongsu Han, Chen Tian, Hao Wang, Haibing Guan, Ming Zhang",
+          "venue": "IEEE/ACM Transactions on Networking (ToN), 2017"
+      },
+      {
+          "title": "Rate-Aware Flow Scheduling for Commodity Data Center Networks ",
+          "authors": "Ziyang Li, Wei Bai, Kai Chen, Dongsu Han, Yiming Zhang, Dongsheng Li, Hongfang Yu",
+          "venue": "IEEE INFOCOM, Atlanta, GA, May 2017"
+      },
+      {
+          "title": "Enabling Wide-spread Communications on Optical Fabric with MegaSwitch ",
+          "authors": "Li Chen, Kai Chen, Joshua Zhu, Minlan Yu, George Porter, Chunming Qiao, Shan Zhong",
+          "venue": "USENIX NSDI, Boston, MA, March 2017"
+      },
+      {
+          "title": "Enabling ECN over Generic Packet Scheduling ",
+          "authors": "Wei Bai, Kai Chen, Li Chen, Changhoon Kim, Haitao Wu",
+          "venue": "ACM CoNEXT, Irvine, CA, December 2016"
+      },
+      {
+          "title": "Stream: Decentralized Opportunistic Inter-Coflows Scheduling for Datacenter Networks ",
+          "authors": "Hengky Susanto, Hao Jin, Kai Chen",
+          "venue": "IEEE ICNP, Singapore, November 2016"
+      },
+      {
+          "title": "Explicit Path Control in Commodity Data Centers: Design and Applications ",
+          "authors": "Shuihai Hu, Kai Chen, Haitao Wu, Wei Bai, Chang Lan, Hao Wang, Hongze Zhao, Chuanxiong Guo",
+          "venue": "IEEE/ACM Transactions on Networking (ToN), 2016"
+      },
+      {
+          "title": "CODA: Toward Automatically Identifying and Scheduling Coflows in the Dark ",
+          "authors": "Hong Zhang, Li Chen, Bairen Yi, Kai Chen, Mosharaf Chowdhury, Yanhui Geng",
+          "venue": "ACM SIGCOMM, Florianopolis, Brazil, August 2016"
+      },
+      {
+          "title": "Scheduling Mix-flows in Commodity Datacenters with Karuna ",
+          "authors": "Li Chen, Kai Chen, Wei Bai, Mohammad Alizadeh",
+          "venue": "ACM SIGCOMM, Florianopolis, Brazil, August 2016"
+      },
+      {
+          "title": "Enabling ECN in Multi-Service Multi-Queue Data Centers ",
+          "authors": "Wei Bai, Li Chen, Kai Chen, Haitao Wu",
+          "venue": "USENIX NSDI, Santa Clara, CA, March 2016"
+      },
+      {
+          "title": "Providing Bandwidth Guarantees, Work Conservation and Low Latency Simultaneously in the Cloud ",
+          "authors": "Shuihai Hu, Wei Bai, Kai Chen, Chen Tian, Ying Zhang, Haitao Wu",
+          "venue": "IEEE INFOCOM, San Francisco, CA, April 2016"
+      },
+      {
+          "title": "OPTAS: Decentralized Flow Monitoring and Scheduling for Tiny Tasks ",
+          "authors": "Ziyang Li, Yiming Zhang, Dongsheng Li, Kai Chen, Yuxing Peng",
+          "venue": "IEEE INFOCOM, San Francisco, CA, April 2016"
+      },
+      {
+          "title": "Towards Comprehensive Traffic Forecasting in Cloud Computing: Design and Application ",
+          "authors": "Yang Peng, Kai Chen, Guohui Wang, Wei Bai, Yangming Zhao, Hao Wang, Yanhui Geng, Zhiqiang Ma, Lin Gu,",
+          "venue": "IEEE/ACM Transactions on Networking (ToN), 2015"
+      },
+      {
+          "title": "FlowProphet: Generic and Accurate Traffic Prediction for Data-parallel Cluster Computing ",
+          "authors": "Hao Wang, Li Chen, Kai Chen, Ziyang Li, Yiming Zhang, Haibin Guan, Zhengwei Qi, Dongsheng Li, Yanhui Geng",
+          "venue": "IEEE ICDCS, Columbus, OH, June 2015"
+      },
+      {
+          "title": "Information-Agnostic Flow Scheduling for Commodity Data Centers ",
+          "authors": "Wei Bai, Li Chen, Kai Chen, Dongsu Han, Chen Tian, Hao Wang",
+          "venue": "USENIX NSDI, Oakland, CA, May 2015"
+      },
+      {
+          "title": "Explicit Path Control in Commodity Data Centers: Design and Applications ",
+          "authors": "Shuihai Hu, Kai Chen, Haitao Wu, Wei Bai, Chang Lan, Hao Wang, Hongze Zhao, Chuanxiong Guo",
+          "venue": "USENIX NSDI, Oakland, CA, May 2015"
+      },
+      {
+          "title": "Guaranteeing Deadlines for Inter-Datacenter Transfers ",
+          "authors": "Hong Zhang, Kai Chen, Wei Bai, Dongsu Han, Chen Tian, Hao Wang, Haibing Guan, Ming Zhang",
+          "venue": "ACM EuroSys, Bordeaux, France, April 2015"
+      },
+      {
+          "title": "WaveCube: A Scalable, Fault-tolerant, High-performance Optical Data Center Architecture ",
+          "authors": "Kai Chen, Xitao Wen, Xingyu Ma, Yan Chen, Yong Xia, Chengchen Hu, Qunfeng Dong",
+          "venue": "IEEE INFOCOM, Hong Kong, China, April 2015"
+      },
+      {
+          "title": "RAPIER: Integrating Routing and Scheduling for Coflow-aware Data Center Networks  ",
+          "authors": "Yangming Zhao, Kai Chen, Wei Bai, Minlan Yu, Chen Tian, Yanhui Geng, Yiming Zhang, Dan Li, Sheng Wang",
+          "venue": "IEEE INFOCOM, Hong Kong, China, April 2015"
+      },
+      {
+          "title": "Joint VM Placement and Topology Optimization for Traffic Scalability in Dynamic Datacenter Networks ",
+          "authors": "Yangming Zhao, Yifan Huang, Kai Chen, Minlan Yu, Sheng Wang, Dongsheng Li",
+          "venue": "Computer Networks, 2015"
+      },
+      {
+          "title": "PIAS: Practical Information-Agnostic Flow Scheduling for Datacenter Networks  ",
+          "authors": "Wei Bai, Li Chen, Kai Chen, Dongsu Han, Chen Tian, Weicheng Sun",
+          "venue": "ACM HotNets, Los Angeles, CA, October 2014"
+      },
+      {
+          "title": "PAC: Taming TCP Incast Congestion Using Proactive ACK Control ",
+          "authors": "Wei Bai, Kai Chen, Haitao Wu, Wuwei Lan, Yangming Zhao",
+          "venue": "IEEE ICNP, Raleigh, NC, October 2014"
+      },
+      {
+          "title": "BitBill: Scalable, Robust, Verifiable Peer-to-Peer Billing for Cloud Computing ",
+          "authors": "Li Chen, Kai Chen",
+          "venue": "USENIX HotCloud, Philadelphia, PA, June 2014"
+      },
+      {
+          "title": "CoSwitch: A Cooperative Switching Design for Software Defined Data Center Networking",
+          "authors": "Yue Zhang, Kai Zheng, Chengchen Hu, Kai Chen, Yi Wang, Athanasios Vasilakos",
+          "venue": "The Intl Workshop on Hot Topics in Big Data and Networking (HotData), August 2014. (Best Paper Award)"
+      },
+      {
+          "title": "HadoopWatch: A First Step Towards Comprehensive Traffic Forecasting in Cloud Computing ",
+          "authors": "Yang Peng, Kai Chen, Guohui Wang, Wei Bai, Zhiqiang Ma, Lin Gu",
+          "venue": "IEEE INFOCOM, Toronto, Canada, April 2014"
+      },
+      {
+          "title": "VirtualKnotter: Online Virtual Machine Shuffling for Congestion Resolving in Virtualized Datacenter [<a href=\"./papers/virtual\nknotter-cn14.pdf\">pdf</a>]",
+          "authors": "Shihong Zou, Xitao Wen, Kai Chen, Yan Chen, Yongqiang Liu, Yong Xia, Chengchen Hu",
+          "venue": "Computer Networks, 2014"
+      },
+      {
+          "title": "Where the Sidewalk Ends: Extending the Internet AS Graph Using Traceroutes From P2P Users ",
+          "authors": "Kai Chen, David Choffnes, Rahul Potharaju, Yan Chen, Fabian Bustamante, Dan Pei, Yao Zhao",
+          "venue": "IEEE Transactions on Computers (TC), 2014"
+      },
+      {
+          "title": "Discount Counting for Fast Flow Statistics on Flow Size and Flow Volume ",
+          "authors": "Chengchen Hu, Bin Liu, Hongbo Zhao, Kai Chen, Yan Chen, Yu Cheng, Hao Wu",
+          "venue": "IEEE/ACM Transactions on Networking (ToN), 2014"
+      },
+      {
+          "title": "Towards Minimal-Delay Deadline-Driven Data Center TCP ",
+          "authors": "Li Chen, Shuihai Hu, Kai Chen, Haitao Wu",
+          "venue": "ACM HotNets-XII, Maryland, MD, November 2013"
+      },
+      {
+          "title": "OSA: An Optical Switching Architecture for Data Center Networks with Unprecedented Flexibility ",
+          "authors": "Kai Chen, Ankit Singla, Atul Singh, Kishore Ramachandran, Lei Xu, Yueping Zhang, Xitao Wen, Yan Chen",
+          "venue": "IEEE/ACM Transactions on Networking (ToN), 2013"
+      },
+      {
+          "title": "A Measurement Study on Potential Inter-Domain Routing Diversity ",
+          "authors": "Chengchen Hu, Kai Chen, Yan Chen, Bin Liu, Athanasios Vasilakos",
+          "venue": "IEEE Transactions on Network and Service Management (TNSM), 2012"
+      },
+      {
+          "title": "GARDEN: Generic Addressing and Routing for Data Center Networks ",
+          "authors": "Yan Hu, Ming Zhu, Yong Xia, Kai Chen, Yanlin Luo",
+          "venue": "IEEE Cloud, Honolulu, Hawaii, June 2012"
+      },
+      {
+          "title": "VirtualKnotter: Online Virtual Machine Shuffling for Congestion Resolving in Virtualized Datacenter ",
+          "authors": "Xitao Wen, Kai Chen, Yan Chen, Yongqiang Liu, Yong Xia, Chengchen Hu",
+          "venue": "IEEE ICDCS, Macau, China, June 2012"
+      },
+      {
+          "title": "Error Tolerant Address Configuration for Data Center Networks with Malfunctioning Devices ",
+          "authors": "Xingyu Ma, Chengchen Hu, Kai Chen, Che Zhang, Hongtao Zhang, Kai Zheng, Yan Chen, Xianda Sun",
+          "venue": "IEEE ICDCS, Macau, China, June 2012"
+      },
+      {
+          "title": "OSA: An Optical Switching Architecture for Data Center Networks with Unprecedented Flexibility ",
+          "authors": "Kai Chen, Ankit Singla, Atul Singh, Kishore Ramachandran, Lei Xu, Yueping Zhang, Xitao Wen, Yan Chen",
+          "venue": "USENIX NSDI, San Jose, CA, April 2012"
+      },
+      {
+          "title": "DAC: Generic and Automatic Address Configuration for Data Center Networks ",
+          "authors": "Kai Chen, Chuanxiong Guo, Haitao Wu, Jing Yuan, Zhenqian Feng, Yan Chen, Songwu Lu, Wenfei Wu",
+          "venue": "IEEE/ACM Transactions on Networking (ToN), 2012"
+      },
+      {
+          "title": "BGP Monitoring System Can Be Cost-Effective ",
+          "authors": "Kai Chen, Chengchen Hu",
+          "venue": "IET Communications, 2011"
+      },
+      {
+          "title": "Routing in Data Centers: Insights and Future Directions ",
+          "authors": "Kai Chen, Chengchen Hu, Xin Zhang, Kai Zheng, Yan Chen, Thanos Vasilakos",
+          "venue": "IEEE Network, 2011"
+      },
+      {
+          "title": "Automatically Configuring the Network Layer of Data Centers for Cloud Computing ",
+          "authors": "Chengchen Hu, Mu Yang, Kai Zheng, Kai Chen, Xin Zhang, Bin Liu, Xiaohong Guan",
+          "venue": "IBM Journal of Research & Development, 2011"
+      },
+      {
+          "title": "All-Optical Switching Data Center Network Supporting 100Gbps Upgrade and Mixed-Line-Rate Interoperability ",
+          "authors": "Lei Xu, Shaoliang Zhang, Fatih Yaman, Ting Wang, Guangxun Liao, Kai Chen, Ankit Singla, Atul Singh, Kishore Ramachandran, Yueping Zhang",
+          "venue": "OFC/NFOEC Post-Deadline Paper (PDP), Los Angeles, CA, March 2011"
+      },
+      {
+          "title": "Generic and Automatic Address Configuration for Data Center Networks ",
+          "authors": "Kai Chen, Chuanxiong Guo, Haitao Wu, Jing Yuan, Zhenqian Feng, Yan Chen, Songwu Lu, Wenfei Wu",
+          "venue": "ACM SIGCOMM, New Delhi, India, August 2010 (Best Paper Candidate)"
+      },
+      {
+          "title": "DISCO: Memory Efficient and Accurate Flow Statistics for Network Measurement ",
+          "authors": "Chengchen Hu, Bin Liu, Hongbo Zhao, Kai Chen, Yan Chen, Chunming Wu, Yu Cheng",
+          "venue": "IEEE ICDCS, Genoa, Italy, June 2010"
+      },
+      {
+          "title": "Evaluating Potential Routing Diversity for Internet Failure Recovery ",
+          "authors": "Chengchen Hu, Kai Chen, Yan Chen, Bin Liu",
+          "venue": "IEEE INFOCOM, San Diego, CA, March 2010"
+      },
+      {
+          "title": "Dynamic Queuing Sharing Mechanism for Per-flow QoS Control ",
+          "authors": "Chengchen Hu, Yi Tang, Kai Chen, Bin Liu",
+          "venue": "IET Communications, 2010"
+      },
+      {
+          "title": "Where the Sidewalk Ends: Extending the Internet AS Graph Using Traceroutes From P2P Users ",
+          "authors": "Kai Chen, David Choffnes, Rahul Potharaju, Yan Chen, Fabian Bustamante, Dan Pei, Yao Zhao",
+          "venue": "ACM International Conference on emerging Networking EXperiments and Technologies (CoNEXT'09), Rome, Italy, December 2009"
+      },
+      {
+          "title": "On the Eyeshots of BGP Vantage Points ",
+          "authors": "Kai Chen, Chengchen Hu, Wenwen Zhang, Yan Chen, Bin Liu",
+          "venue": "IEEE Global Communications Conference (GLOBECOM'09), Honolulu, Hawaii, November 2009"
+      }
+  ]
+}
