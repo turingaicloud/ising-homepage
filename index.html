@@ -7,11 +7,8 @@
     <link rel="stylesheet" href="./assets/bulma.min.css">
     <link href="./assets/bulma-divider.min.css" rel="stylesheet">
     <script src="./assets/jquery-3.6.0.min.js"></script>
-
+	<script src="./assets/papaparse.min.js"></script>
     <link href="./assets/style.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -256,6 +253,20 @@
                 });
             
             $('.banner').css('background-position', Math.floor(Math.random() * 100) + '%' + Math.floor(Math.random() * 100) + '%');
+
+            fetch('https://tacc.ust.hk/stats.csv')
+                .then(response => response.text())
+                .then(csvText => Papa.parse(csvText, { header: true, skipEmptyLines:true }))
+                .then(data => {
+                    //update the number figure
+                    var lastEntry = data[data.length - 1];
+                    var user = parseInt(lastEntry.Users);
+                    var task = parseInt(lastEntry.Tasks);
+                    var gpu = Math.ceil(task * 9.7);
+                    document.getElementById("stats-task").innerHTML = task.toLocaleString('en-US', {minimumFractionDigits: 0})
+                    document.getElementById("stats-user").innerHTML = user.toLocaleString('en-US', {minimumFractionDigits: 0})
+                    document.getElementById("stats-gpu").innerHTML = gpu.toLocaleString('en-US', {minimumFractionDigits: 0})
+                });
         });
     </script>
 </body>
