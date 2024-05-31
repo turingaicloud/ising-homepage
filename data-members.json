@@ -50,7 +50,8 @@
     {
         "photo_url": "./members/xudong.jpg",
         "name": "Xudong Liao",
-        "position": "PhD student"
+        "position": "PhD student",
+        "link": "https://xudongliao.github.io/"
     },
     {
         "photo_url": "./members/kaiqiang.jpg",
