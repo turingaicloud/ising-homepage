@@ -21,9 +21,10 @@
         "position": "PhD student"
     },
     {
-        "photo_url": "./members/hao.png",
+        "photo_url": "./members/wanghao.jpeg",
         "name": "Hao Wang",
-        "position": "PhD student"
+        "position": "PhD student",
+        "link": "https://whwh1996.github.io/"
     },
     {
         "photo_url": "./members/zilong.jpg",
