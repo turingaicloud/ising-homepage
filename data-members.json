@@ -54,7 +54,8 @@
     {
         "photo_url": "./members/kaiqiang.jpg",
         "name": "Kaiqiang Xu",
-        "position": "PhD student"
+        "position": "PhD student",
+        "link": "https://kqxu.com/"
     },
     {
         "photo_url": "./members/zhenghang.jpg",
