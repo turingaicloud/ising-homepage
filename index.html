@@ -259,7 +259,7 @@
                 .then(csvText => Papa.parse(csvText, { header: true, skipEmptyLines:true }))
                 .then(data => {
                     //update the number figure
-                    var lastEntry = data[data.length - 1];
+                    var lastEntry = data.data[data.data.length - 1];
                     var user = parseInt(lastEntry.Users);
                     var task = parseInt(lastEntry.Tasks);
                     var gpu = Math.ceil(task * 9.7);
