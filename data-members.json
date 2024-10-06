@@ -8,12 +8,14 @@
     {
         "photo_url": "./members/jinbin.jpg",
         "name": "Jinbin Hu",
-        "position": "Postdoc"
+        "position": "Postdoc",
+        "link": "https://huhuzizi.github.io/jinbinhu.github.io/index.html"
     },
     {
         "photo_url": "./members/xinchen.jpg",
         "name": "Xinchen Wan",
-        "position": "PhD student"
+        "position": "PhD student",
+        "link": "https://xcwanandy.github.io"
     },
     {
         "photo_url": "./members/liu.jpg",
@@ -29,12 +31,14 @@
     {
         "photo_url": "./members/zilong.jpg",
         "name": "Zilong Wang",
-        "position": "PhD student"
+        "position": "PhD student",
+        "link": "https://egoinside.github.io/"
     },
     {
         "photo_url": "./members/di.jpeg",
         "name": "Di Chai",
-        "position": "PhD student"
+        "position": "PhD student",
+        "link": "https://di-chai.github.io/"
     },
     {
         "photo_url": "./members/yilun.jpg",
@@ -62,12 +66,14 @@
     {
         "photo_url": "./members/zhenghang.jpg",
         "name": "Zhenghang Ren",
-        "position": "PhD student"
+        "position": "PhD student",
+        "link": "https://home.cse.ust.hk/~zrenak/"
     },
     {
         "photo_url": "./members/wenxue.jpg",
         "name": "Wenxue Li",
-        "position": "PhD student"
+        "position": "PhD student",
+        "link": "https://leewxgit.github.io/index.html"
     },
     {
         "photo_url": "./members/decang.jpg",
@@ -87,6 +93,31 @@
     {
         "photo_url": "./members/xinyu.jpg",
         "name": "Xinyu Yang",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/yuxuanli.jpeg",
+        "name": "Yuxuan Li",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/qijing.jpeg",
+        "name": "Qijing Li",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/yunxuan.jpeg",
+        "name": "Yunxuan Zhang",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/xiangzhou.jpeg",
+        "name": "Xiangzhou Liu",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/pengbo.jpeg",
+        "name": "Pengbo Li",
         "position": "PhD student"
     },
     {
