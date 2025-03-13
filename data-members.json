@@ -12,33 +12,14 @@
         "link": "https://huhuzizi.github.io/jinbinhu.github.io/index.html"
     },
     {
-        "photo_url": "./members/xinchen.jpg",
-        "name": "Xinchen Wan",
-        "position": "PhD student",
-        "link": "https://xcwanandy.github.io"
+        "photo_url": "./members/bowen.jpg",
+        "name": "Bowen Liu",
+        "position": "Postdoc"
     },
     {
         "photo_url": "./members/liu.jpg",
         "name": "Liu Yang",
         "position": "PhD student"
-    },
-    {
-        "photo_url": "./members/wanghao.jpeg",
-        "name": "Hao Wang",
-        "position": "PhD student",
-        "link": "https://whwh1996.github.io/"
-    },
-    {
-        "photo_url": "./members/zilong.jpg",
-        "name": "Zilong Wang",
-        "position": "PhD student",
-        "link": "https://egoinside.github.io/"
-    },
-    {
-        "photo_url": "./members/di.jpeg",
-        "name": "Di Chai",
-        "position": "PhD student",
-        "link": "https://di-chai.github.io/"
     },
     {
         "photo_url": "./members/yilun.jpg",
@@ -124,16 +105,6 @@
         "photo_url": "./members/feiyuan.png",
         "name": "Feiyuan Zhang",
         "position": "MPhil student"
-    },
-    {
-        "photo_url": "./members/xiaoyu.jpg",
-        "name": "Xiaoyu Hu",
-        "position": "Research assistant"
-    },
-    {
-        "photo_url": "./members/bowen.jpg",
-        "name": "Bowen Liu",
-        "position": "Visiting scholar"
     }],
 
     "past": [
@@ -186,6 +157,30 @@
         "photo_url": "./members/weiyan.jpg",
         "name": "Weiyan Wang",
         "position": "PhD 2023"
+    },
+    {
+        "photo_url": "./members/di.jpeg",
+        "name": "Di Chai",
+        "position": "PhD 2025",
+        "link": "https://di-chai.github.io/"
+    },
+    {
+        "photo_url": "./members/xinchen.jpg",
+        "name": "Xinchen Wan",
+        "position": "PhD 2025",
+        "link": "https://xcwanandy.github.io"
+    },
+    {
+        "photo_url": "./members/zilong.jpg",
+        "name": "Zilong 2025",
+        "position": "PhD 2025",
+        "link": "https://egoinside.github.io/"
+    },
+    {
+        "photo_url": "./members/wanghao.jpeg",
+        "name": "Hao Wang",
+        "position": "PhD 2025",
+        "link": "https://whwh1996.github.io/"
     },
     {
         "photo_url": "./members/hengky.jpg",
@@ -301,6 +296,11 @@
         "photo_url": "./members/yuxuan.jpg",
         "name": "Yuxuan Qin",
         "position": "MPhil 2024"
+    },
+    {
+        "photo_url": "./members/xiaoyu.jpg",
+        "name": "Xiaoyu Hu",
+        "position": "Research assistant"
     },
     {
         "photo_url": "./members/deke.png",
