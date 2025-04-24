@@ -22,12 +22,6 @@
         "position": "PhD student"
     },
     {
-        "photo_url": "./members/yilun.jpg",
-        "name": "Yilun Jin",
-        "position": "PhD student",
-        "link": "https://kl4805.github.io/"
-    },
-    {
         "photo_url": "./members/empty.png",
         "name": "Hao Xu",
         "position": "PhD student"
@@ -172,7 +166,7 @@
     },
     {
         "photo_url": "./members/zilong.jpg",
-        "name": "Zilong 2025",
+        "name": "Zilong Wang",
         "position": "PhD 2025",
         "link": "https://egoinside.github.io/"
     },
@@ -181,6 +175,12 @@
         "name": "Hao Wang",
         "position": "PhD 2025",
         "link": "https://whwh1996.github.io/"
+    },
+    {
+        "photo_url": "./members/yilun.jpg",
+        "name": "Yilun Jin",
+        "position": "PhD 2025",
+        "link": "https://kl4805.github.io/"
     },
     {
         "photo_url": "./members/hengky.jpg",
