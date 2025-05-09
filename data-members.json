@@ -58,7 +58,8 @@
     {
         "photo_url": "./members/xinyang.jpg",
         "name": "Xinyang Huang",
-        "position": "PhD student"
+        "position": "PhD student",
+        "link": "https://huangxy-minel.github.io/"
     },
     {
         "photo_url": "./members/yijun.jpg",
