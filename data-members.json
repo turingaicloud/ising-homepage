@@ -27,18 +27,6 @@
         "position": "PhD student"
     },
     {
-        "photo_url": "./members/xudong.jpg",
-        "name": "Xudong Liao",
-        "position": "PhD student",
-        "link": "https://xudongliao.github.io/"
-    },
-    {
-        "photo_url": "https://kqxu.com/images/photo-2024.jpg",
-        "name": "Kaiqiang Xu",
-        "position": "PhD student",
-        "link": "https://kqxu.com/"
-    },
-    {
         "photo_url": "./members/zhenghang.jpg",
         "name": "Zhenghang Ren",
         "position": "PhD student",
@@ -98,8 +86,31 @@
     {
         "photo_url": "./members/feiyuan.png",
         "name": "Feiyuan Zhang",
-        "position": "MPhil student"
-    }],
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/zihao.jpg",
+        "name": "Zihao Wang",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/zhaoxiang.jpg",
+        "name": "Zhaoxiang Bao",
+        "position": "PhD student"
+    }
+    ,
+    {
+        "photo_url": "./members/liuyu.jpg",
+        "name": "Yu Liu",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/linkai.jpg",
+        "name": "Linkai Song",
+        "position": "PhD student",
+        "link": "https://songlkkevin.github.io/"
+    }
+],
 
     "past": [
     {
@@ -181,6 +192,18 @@
         "name": "Yilun Jin",
         "position": "PhD 2025",
         "link": "https://kl4805.github.io/"
+    },
+    {
+        "photo_url": "https://kqxu.com/images/photo-2024.jpg",
+        "name": "Kaiqiang Xu",
+        "position": "PhD 2025",
+        "link": "https://kqxu.com/"
+    },
+    {
+        "photo_url": "./members/xudong.jpg",
+        "name": "Xudong Liao",
+        "position": "PhD 2025",
+        "link": "https://xudongliao.github.io/"
     },
     {
         "photo_url": "./members/hengky.jpg",
