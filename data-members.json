@@ -14,7 +14,8 @@
     {
         "photo_url": "./members/bowen.jpg",
         "name": "Bowen Liu",
-        "position": "Postdoc"
+        "position": "Postdoc",
+        "link": "https://albertbowen.github.io/"
     },
     {
         "photo_url": "./members/liu.jpg",
@@ -46,7 +47,8 @@
     {
         "photo_url": "./members/xinyang.jpg",
         "name": "Xinyang Huang",
-        "position": "PhD student"
+        "position": "PhD student",
+        "link": "https://huangxy-minel.github.io/"
     },
     {
         "photo_url": "./members/yijun.jpg",

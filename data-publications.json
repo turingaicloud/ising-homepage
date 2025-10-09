@@ -1,5 +1,50 @@
 {
     "publications":[
+           {
+        "title": "GREEN: Carbon-efficient Resource Scheduling for Machine Learning Clusters",
+        "authors": "Kaiqiang Xu, Decang Sun, Han Tian, Junxue Zhang, Kai Chen",
+        "venue": "USENIX NSDI 2025"
+    },
+    {
+        "title": "Design and Operation of Shared Machine Learning Clusters on Campus",
+        "authors": "Kaiqiang Xu, Decang Sun, Hao Wang, Zhenghang Ren, Xinchen Wan, Xudong Liao, Zilong Wang, Junxue Zhang, Kai Chen",
+        "venue": "ACM ASPLOS 2025"
+    },
+    {
+        "title": "Sequoia: An Accessible and Extensible Framework for Privacy-Preserving Machine Learning over Distributed Data",
+        "authors": "Kaiqiang Xu, Di Chai, Junxue Zhang, Fan Lai, Kai Chen",
+        "venue": "ACM SIGMOD 2025"
+    },
+    {
+        "title": "eNetSTL: Towards an In-kernel Library for High-Performance eBPF-based Network Functions",
+        "authors": "Bin Yang, Dian Shen, Junxue Zhang, Hanlin Yang, Lunqi Zhao, Beilun Wang, Guyue Liu, Kai Chen",
+        "venue": "ACM EuroSys 2025"
+    },
+    {
+        "title": "Cheetah: Metadata Aggregation for Fast Object Storage without Distributed Ordering",
+        "authors": "Yiming Zhang, Li Wang, Shengyun Liu, Shun Gai, Haonan Wang, Xin Yao, Meiling Wang, Kai Chen, Dongsheng Li, Jiwu Shu",
+        "venue": "ACM EuroSys 2025"
+    },
+    {
+        "title": "Achieving Fairness Generalizability for Learning-based Congestion Control with Jury",
+        "authors": "Han Tian, Xudong Liao, Decang Sun, Chaoliang Zeng, Yilun Jin, Junxue Zhang, Xinchen Wan, Zilong Wang, Yong Wang, Kai Chen",
+        "venue": "ACM EuroSys 2025"
+    },
+    {
+        "title": "Enabling In-Network Acceleration over the Cloud",
+        "authors": "Hao Wang, Decang Sun, Jinbin Hu, Kai Chen",
+        "venue": "IEEE INFOCOM 2025"
+    },
+    {
+        "title": "Combating Deep Leakage from Gradients in Cross-Silo Federated Learning with QKD",
+        "authors": "Xiaoyu Wang, Yangming Zhao, Chen Tian, Kai Chen, Qi Li, Kun Yang, Chunming Qiao",
+        "venue": "IEEE INFOCOM 2025"
+    },
+    {
+        "title": "A Generic and Efficient Communication Framework for Message-level In-Network Computing",
+        "authors": "Xinchen Wan, Luyang Li, Han Tian, Xudong Liao, Xinyang Huang, Chaoliang Zeng, Zilong Wang, Xinyu Yang, Ke Cheng, Qingsong Ning, Guyue Liu, Layong Luo, Kai Chen",
+        "venue": "IEEE INFOCOM 2025"
+    },
       {
           "title": "Fast, Scalable, and Accurate Rate Limiter for RDMA NICs",
           "authors": "Zilong Wang, Xinchen Wan, Luyang Li, Yijun Sun, Peng Xie, Xin Wei, Qingsong Ning, Junxue Zhang, Kai Chen",
@@ -10,21 +55,7 @@
           "authors": "Di Chai, Junxue Zhang, Liu Yang, Yilun Jin, Leye Wang, Kai Chen, Qiang Yang",
           "venue": "USENIX ATC 2024"
       },
-      {
-          "title": "FlowSail: Fine-grained and Practical Flow Control for Datacenter Networks",
-          "authors": "Wenxue Li, Chaoliang Zeng, Jinbin Hu, Kai Chen",
-          "venue": "IEEE/ACM Transactions on Networking 2024"
-      },
-      {
-          "title": "Load Balancing with Multi-level Signals for Lossless Datacenter Networks",
-          "authors": "Jinbin Hu, Chaoliang Zeng, Zilong Wang, Junxue Zhang, Kun Guo, Hong Xu, Jiawei Huang, Kai Chen",
-          "venue": "IEEE/ACM Transactions on Networking 2024"
-      },
-      {
-          "title": "Understanding Communication Characteristics of Distributed Training",
-          "authors": "Wenxue Li, Xiangzhou Liu, Yuxuan Li, Yilun Jin, Han Tian, Zhizhen Zhong, Guyue Liu, Ying Zhang, Kai Chen",
-          "venue": "APNet 2024"
-      },
+
       {
           "title": "Towards Domain-Specific Network Transport for Distributed DNN Training ",
           "authors": "Hao Wang, Han Tian, Jingrong Chen, Xinchen Wan, Jiacheng Xia, Gaoxiong Zeng, Wei Bai, Junchen Jiang, Yong Wang, Kai Chen",

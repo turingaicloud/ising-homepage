@@ -1,5 +1,29 @@
 {
     "news":[
+            {
+        "time": "Mar 2025",
+        "content": "FuseLink accepted to OSDI'25"
+    },
+    {
+        "time": "Dec 2024",
+        "content": "Green accepted to NSDI'25"
+    },
+    {
+        "time": "Dec 2024",
+        "content": "Leo, INAaaS, and QuGrad accepted to INFOCOM'25"
+    },
+    {
+        "time": "Oct 2024",
+        "content": "Sing accepted to ASPLOS'25"
+    },
+    {
+        "time": "Aug 2024",
+        "content": "Sequoia accepted to SIGMOD'25"
+    },
+    {
+        "time": "Aug 2024",
+        "content": "Jury, Cheetah, and eNetSTL accepted to EuroSys'25"
+    },
         {
           "time": "May 2024",
           "content": "Tassel accepted to SIGCOMM'24"
