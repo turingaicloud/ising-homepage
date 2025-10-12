@@ -111,6 +111,12 @@
         "name": "Linkai Song",
         "position": "PhD student",
         "link": "https://songlkkevin.github.io/"
+    },
+    {
+        "photo_url": "./members/songrun.jpg",
+        "name": "SongRun Xie",
+        "position": "PhD student",
+        "link": "https://soryxie.github.io/"
     }
 ],
 
