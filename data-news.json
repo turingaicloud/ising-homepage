@@ -1,6 +1,26 @@
 {
     "news":[
-            {
+    {
+      "time": "Sep 2025 ",
+      "content": "DCP received Best Student Paper Award (Honorable Mention) at SIGCOMM'25"
+    },
+    {
+      "time": "Aug 2025 ",
+      "content": "LTP and MFS accepted to EuroSys'26"
+    },
+    {
+      "time": "April 2025 ",
+      "content": "CEIO, DCP and MixNet accepted to SIGCOMM'25"
+    },
+    {
+      "time": "April 2025 ",
+      "content": "FLB, Pallas, and SwitchGNN accepted to ATC'25"
+    },
+    {
+      "time": "April 2025 ",
+      "content": "Themis, MCC, and CARC accepted to APNet'25"
+    },
+    {
         "time": "Mar 2025",
         "content": "FuseLink accepted to OSDI'25"
     },
