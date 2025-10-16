@@ -1,6 +1,61 @@
 {
     "publications":[
-           {
+    {
+        "title": "MixNet: A Runtime Reconfigurable Optical-Electrical Fabric for Distributed Mixture-of-Experts Training",
+        "authors": "Xudong Liao, Yijun Sun, Han Tian, Xinchen Wan, Yilun Jin, Zilong Wang, Zhenghang Ren, Xinyang Huang, Wenxue Li, Kin Fai Tse, Zhizhen Zhong, Guyue Liu, Ying Zhang, Xiaofeng Ye, Yiming Zhang, Kai Chen",
+        "venue": "ACM SIGCOMM 2025"
+    },
+    {
+        "title": "CEIO: A Cache-Efficient Network I/O Architecture for NIC-CPU Data Paths",
+        "authors": "Bowen Liu, Xinyang Huang, Qijing Li, Zhuobin Huang, Yijun Sun, Wenxue Li, Junxue Zhang, Ping Yin, Kai Chen",
+        "venue": "ACM SIGCOMM 2025"
+    },
+    {
+        "title": "Revisiting RDMA Reliability for Lossy Fabrics",
+        "authors": "Wenxue Li, Xiangzhou Liu, Yunxuan Zhang, Zihao Wang, Wei Gu, Tao Qian, Gaoxiong Zeng, Shoushou Ren, Xinyang Huang, Zhenghang Ren, Bowen Liu, Junxue Zhang, Bingyang Liu, Kai Chen",
+        "venue": "ACM SIGCOMM 2025"
+    },
+    {
+        "title": "Enabling Efficient GPU Communication over Multiple NICs with FuseLink",
+        "authors": "Zhenghang Ren, Yuxuan Li, Zilong Wang, Xinyang Huang, Wenxue Li, Kaiqiang Xu, Xudong Liao, Yijun Sun, Bowen Liu, Han Tian, Junxue Zhang, Mingfei Wang, Zhizhen Zhong, Guyue Liu, Ying Zhang, Kai Chen",
+        "venue": "USENIX OSDI 2025"
+    },
+    {
+        "title": "Exploiting Student Parallelism for Efficient GPU Inference of BERT-like Models in Online Services",
+        "authors": "Weiyan Wang, Yilun Jin, Yiming Zhang, Junqiu Wei, Han Tian, Li Chen, Jinbao Xue, Yangyu Tao, Di Wang, Kai Chen",
+        "venue": "ACM KDD 2025"
+    },
+    {
+        "title": "Towards Optimal Rack-scale us-level CPU Scheduling through In-Network Workload Shaping",
+        "authors": "Xudong Liao, Han Tian, Xinchen Wan, Chaoliang Zeng, Xinyang Huang, Hao Wang, Junxue Zhang, Mengyu Ma, Guyue Liu, Kai Chen",
+        "venue": "USENIX ATC 2025"
+    },
+    {
+        "title": "FLB: Fine-grained Load Balancing for Lossless Datacenter Networks",
+        "authors": "Jinbin Hu, Wenxue Li, Xiangzhou Liu, Junfeng Wang, Bowen Liu, Ping Yin, Jianxin Wang, Jiawei Huang, Kai Chen",
+        "venue": "USENIX ATC 2025"
+    },
+    {
+        "title": "Accelerating Distributed Graph Learning by Using Collaborative In-Network Multicast and Aggregation",
+        "authors": "Zhaoyi Li, Jiawei Huang, Yijun Li, Jingling Liu, Junxue Zhang, Hui Li, Xiaojun Zhu, Shengwen Zhou, Jing Shao, Xiaojuan Lu, Qichen Su, Jianxin Wang, Chee Wei Tan, Yong Cui, Kai Chen",
+        "venue": "USENIX ATC 2025"
+    },
+    {
+        "title": "Enabling Packet Spraying over Commodity RNICs with In-Network Support",
+        "authors": "Xiangzhou Liu, Wenxue Li, Kai Chen",
+        "venue": "APNet 2025"
+    },
+    {
+        "title": "Cache-Aware I/O Rate Control for RDMA",
+        "authors": "Qijing Li, Xinyang Huang, Bowen Liu, Pengbo Li, Junxue Zhang, Kai Chen",
+        "venue": "APNet 2025"
+    },
+    {
+        "title": "Congestion Control for AI Workloads with Message-Level Signaling",
+        "authors": "Yuxuan Li, Zhenghang Ren, Wenxue Li, Xiangzhou Liu, Kai Chen",
+        "venue": "APNet 2025"
+    },
+    {
         "title": "GREEN: Carbon-efficient Resource Scheduling for Machine Learning Clusters",
         "authors": "Kaiqiang Xu, Decang Sun, Han Tian, Junxue Zhang, Kai Chen",
         "venue": "USENIX NSDI 2025"
