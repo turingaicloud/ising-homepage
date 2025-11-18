@@ -1,0 +1,1861 @@
+/* oldsite 2017 */
+
+/* Emphasis etc. */
+
+em {
+ color: #e33;
+ font-style: normal;
+}
+
+em.note {
+ color: #f00;
+}
+
+em.dark {
+ color: #000;
+}
+
+.footnote {
+ font-size: 75%;
+}
+
+/*
+.smaller {
+ font-size: 90%;
+}
+
+.rcs {
+ font-family: "times new roman", "georgia", serif;
+ font-style: italic;
+}
+
+.required {
+ background-color: inherit;
+ color: red;
+}
+
+.invalid {
+ background-color: inherit;
+ color: green;
+}
+
+a.button {
+ color: rgb(0, 68, 104);
+ border-color: rgb(0, 68, 104);
+ border-style: solid;
+ border-width: 1px;
+ font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+ font-weight: bold;
+ padding: 3px 5px 2px 5px;
+ text-decoration: none;
+}
+
+a:hover.botton,
+a:hover.button {
+ background-color: rgb(94, 141, 169);
+ color: #fff;
+}
+*/
+
+/* Align text to left, right and center */
+
+.tleft {
+ text-align: left;
+}
+
+.tright {
+ text-align: right;
+}
+
+.tcenter {
+ text-align: center;
+ margin: auto;
+}
+
+/* Float to left and right */
+
+/* Do not uncomment */
+/*
+.left {
+ float: left;
+}
+
+.right {
+ float: right;
+}
+*/
+
+.topright {
+ clear: right;
+ float: right;
+/*
+ margin-top: .75em;
+*/
+ margin-top: .25em;
+ padding-right: .5em;
+}
+
+.center {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/* Clear left, right and both */
+
+.clearleft {
+ clear: left;
+}
+
+.clearright {
+ clear: right;
+}
+
+.clearboth {
+ clear: both;
+}
+
+/* Highlighting effect & border in navigation */
+
+/*
+.panel.nav a {
+ color: #35a9d8;
+}
+*/
+
+.panel.nav {
+ float: right;
+ margin-left: 0.5em;
+ width: 12em;
+}
+
+@media (max-width: 767px) {
+ .panel.nav {
+  float: none;
+  margin-left: 0;
+  width: 100%;
+ }
+}
+
+.navigation {
+ background-color: #fff;
+ float: right;
+ font-weight: bold;
+ font-size: 90%;
+ margin: 0;
+ padding: 0 0 0.5em 1em;
+ width: 13em;
+}
+
+.navigation li {
+ border-top: 1px solid gray;
+ list-style: none;
+ margin: 0;
+ text-align: left;
+}
+
+.navigation li#current {
+ background-color: #ccd;
+ border-top: 1px solid gray;
+ border-left: 1em solid #aab;
+ color: black;
+ list-style: none;
+ margin: 0;
+ padding: 0.25em 0.5em 0.25em 0.75em;
+ text-align: left;
+ text-decoration: none;
+}
+
+.navigation li a {
+ border-left: 1em solid #bbc;
+ display: block;
+ padding: 0.25em 0.5em 0.25em 0.75em;
+ text-decoration: none;
+}
+
+.navigation li a:hover {
+/*
+ background-color: #ffd;
+ border-color: #ef7c1f;
+ color: #f33;
+ border-color: #66f;
+*/
+ background-color: #f5fbfd;
+ border-color: #173c64;
+ text-decoration: none;
+}
+
+.navigation li p {
+/*
+ background-color: #173c64;
+ border-color: #173c64;
+ color: #fff;
+ padding-left: 1em;
+*/
+ background-color: #dde;
+ border-left: 1em solid #dde;
+ display: block;
+ margin-top: 0em;
+ margin-bottom: 0em;
+ padding-top: 0.5em;
+ padding-bottom: 0.5em;
+}
+
+.navigation_left {
+ margin-top: 1em;
+ margin-right: 13em;
+}
+
+/* Tabs for Faculty Page */
+
+.cat-tabs {
+ list-style: none;
+ margin: 0 0 28px 0;
+ padding: 0;
+ text-align: center;
+}
+
+.cat-tabs li {
+ display: inline;
+ font-weight: 500;
+ line-height: 2.25em;
+ white-space: nowrap;
+}
+
+.cat-tabs li a,
+.cat-tabs li a:link,
+.cat-tabs li a:visited {
+ background-color: #fff;
+ cursor: pointer;
+ margin: 0 4px;
+ padding: 6px 1em;
+ text-decoration: none;
+ white-space: nowrap;
+ color: #5a5a5a;
+ border-radius: 15px;
+}
+
+.cat-tabs li#selected a,
+.cat-tabs li a:hover {
+ color: #35a9d8;
+}
+
+.cat-tabs li#selected a {
+ cursor: text;
+}
+
+@media (max-width: 479px) {
+ .cat-tabs li {
+  display: inline-block;
+  width: 100%;
+ }
+ .cat-tabs li a,
+ .cat-tabs li a:link,
+ .cat-tabs li a:visited {
+  display: block;
+  margin: 4px 4px;
+  padding: 0 1em;
+ }
+}
+
+/* Horizontal Navigation */
+
+.hnav {
+ list-style: none;
+ margin: 0 0 0.5em 0;
+ padding: 0;
+}
+
+.hnav li {
+ display: inline;
+ font-weight: bold;
+ line-height: 2.25em;
+ margin: 0;
+ white-space: nowrap;
+}
+
+.hnav li a,
+.hnav li a:link,
+.hnav li a:visited {
+ background-color: #fff;
+ border: 1px solid #8cacbb;
+ cursor: pointer;
+ margin-right: 1px;
+ padding: 3px 0.5em;
+ text-decoration: none;
+ white-space: nowrap;
+}
+
+.hnav li#selected a {
+ cursor: text;
+}
+
+.hnav li#selected a,
+.hnav li.ui-tabs-selected a,
+.hnav li a:hover {
+ background-color: #dee7ec;
+ border-color: #8cacbb;
+ color: #436976;
+}
+
+a.selected {
+ cursor: text;
+}
+
+a.active {
+ cursor: text;
+}
+
+/* add padding to default table cells */
+
+table {
+ margin-bottom: 20px;
+}
+
+.scroll-table,
+.table-holder {
+ margin-bottom: 20px;
+}
+
+@media (max-width: 479px) {
+ table ol,
+ table ul {
+  -webkit-padding-start: 25px;
+ }
+}
+
+table th,
+table td {
+/*
+ padding: 3px 0;
+*/
+ padding: 3px 2px;
+}
+
+.border th,
+.border td {
+ border: 1px solid #aaa !important;
+}
+
+/* temporary, to be removed after new site launched */
+
+/*
+.fancy.table td {
+ border-top: 0;
+ border-bottom:1px solid #ddd;
+}
+*/
+
+/* temporary, to be added to app.css */
+
+.fancy.table th,
+.fancy.table td {
+ padding-left: 0;
+}
+
+/*
+#page-section .table-holder th,
+#page-section .table-holder td {
+ padding-left: 0;
+}
+*/
+
+/* Fancy Table */
+
+table.fancy th {
+ padding-top: 6px;
+ padding-bottom: 6px;
+ color: #333;
+}
+
+table.fancy th,
+table.fancy td {
+/*
+ padding-right: 0.75em;
+*/
+ padding-right: 8px;
+}
+
+table.fancy th {
+/*
+ border-bottom: 2px solid #3f3f3f;
+*/
+ border-bottom: 2px solid #ddd;
+ text-align: left;
+}
+
+table.fancy td {
+/*
+ border-bottom: 1px solid #9f9f9f;
+*/
+ border-bottom: 1px solid #ddd;
+}
+
+table.fancy tfoot th,
+table.fancy tfoot td,
+table.fancy table th,
+table.fancy table td {
+ border-bottom: none;
+}
+
+table.fancy th a,
+#maincontent table.fancy th a {
+ font-weight: bold;
+}
+
+table.fancy th a:hover,
+#maincontent table.fancy th a:hover {
+ text-decoration: underline;
+}
+
+table.fancy a:hover,
+#maincontent table.fancy a:hover {
+ text-decoration: none;
+}
+
+.fancy tbody tr:hover th,
+.fancy tbody tr:hover td {
+ background-color: #f5fbfd;
+}
+
+/* Table & Borders etc. */
+
+table.top th,
+table.top td {
+ vertical-align: top;
+}
+
+table.event {
+ border-top: none;
+ border-right: none;
+ border-bottom: 1px solid #ccc;
+ border-left: 1px solid #ccc;
+}
+
+table.event td,
+table.event th {
+ border-top: 1px solid #ccc;
+ border-right: 1px solid #ccc;
+ border-bottom: none;
+ border-left: none;
+ vertical-align: top;
+ padding: 3px 5px;
+}
+
+table.event th {
+ background-color: #555;
+ color: #fff;
+ text-align: left;
+}
+
+td.event {
+ background-color: #ddd;
+}
+
+/*
+th.date,
+td.date {
+ white-space: nowrap;
+}
+*/
+
+tr.ruled {
+/*
+ background-color: #ffffd9;
+*/
+ background-color: #f5fbfd;
+}
+
+tr.solid th {
+ font-size: 90%;
+ padding-left: 0.5em;
+ padding-right: 0.5em;
+}
+
+th.tsolid,
+td.tsolid {
+ border-top: 1px solid #999;
+}
+
+td.lsolid,
+th.lsolid {
+ border-left: 1px solid #999;
+}
+
+td.rsolid,
+th.rsolid {
+ border-right: 1px solid #999;
+}
+
+tr.solid th,
+tr.solid td,
+th.solid,
+td.solid {
+ border-bottom: 1px solid #999;
+}
+
+tr.dashed th,
+tr.dashed td {
+ border-bottom: 1px dashed #999;
+}
+
+tr.tdashed th,
+tr.tdashed td,
+td.tdashed {
+ border-top: 1px dashed #999;
+}
+
+td.ldashed { border-left: 1px dashed #999; }
+td.rdashed { border-right: 1px dashed #999; }
+td.dashed  { border-bottom: 1px dashed #999; }
+
+td.space {
+ padding-left: 0.5em;
+ padding-right: 0.5em;
+}
+
+td.nowrap {
+ white-space: nowrap;
+}
+
+/* Faculty Profile */
+
+/*
+.key,
+.cert {
+ background-color: inherit;
+ color: #f33;
+ font-weight: bold;
+}
+
+a.key,
+a.cert,
+#maincontent a.key,
+#maincontent a.cert {
+ background-color: inherit;
+ color: #33f;
+ font-weight: bold;
+}
+
+a:hover.key,
+a:hover.cert,
+a:hover.active,
+#maincontent a:hover.key,
+#maincontent a:hover.cert,
+#maincontent a:hover.active {
+ background-color: inherit;
+ color: #f66;
+}
+
+.faculty_profile {
+ position: relative;
+ width: 100%;
+}
+
+.faculty_profile hr {
+ clear: both;
+ margin: 1em auto;
+}
+
+.faculty_img {
+ border: 1px solid #999;
+ float: left;
+ height: 120px;
+ margin-bottom: 1em;
+ position: relative;
+}
+
+.faculty_info {
+ margin-left: 100px;
+ position: relative;
+}
+*/
+
+/* FAQ */
+
+/*
+p.question {
+ border: 1px solid #c33;
+ color: #c33;
+ font-family: arial, sans-serif;
+ font-size: 125%;
+ font-weight: bold;
+ padding: 1px 3px;
+ margin: 1.5em 0 0 0;
+}
+*/
+
+/* Venue (link to path advisor) */
+
+a.venue {
+ color: inherit;
+ font-weight: normal;
+ border-bottom: 1px dashed #ccc;
+}
+
+a.venue:hover {
+ border-bottom: 1px solid #999;
+}
+
+strong a.venue {
+ font-weight: bold;
+}
+
+/* FYP Videos: thumbnail and text */
+/* to be updated */
+
+ul.thumbnail {
+ list-style-type: none;
+}
+
+.thumbnail li {
+ overflow: auto;
+}
+
+.thumbnail li img {
+ float: left;
+ border: 1px solid #666;
+ margin: 0 1em 1.5em 0;
+}
+
+td pre,
+pre.plain,
+pre.list {
+ color: inherit;
+ background-color: #fff;
+ border: none;
+ padding: 0;
+}
+
+pre.list {
+ overflow-x: visible;
+ white-space: pre-wrap; /* allows wrapping */
+ word-break: break-word; /* breaks long words if needed */
+}
+
+/* newsite 2018 */
+
+h1 {
+ font-size: 28px;
+}
+@media (max-width: 767px) {
+ h1 {
+  font-size: 26px;
+ }
+ .bg-header > .container h1 {
+  margin-bottom: 7px !important;
+  margin-top: 33px !important;
+ }
+}
+
+h2 {
+ /* font-size: 22px; */
+ font-size: 23px;
+}
+
+h3, #page-section h3 {
+ /* font-size: 20px; */
+ font-size: 19px;
+ margin-top: 19px;
+}
+
+.panel-heading h3 {
+ margin-top: 0 !important;
+}
+
+/* added to scss
+#factsheet-page h3 {
+ font-size: 22px !important;
+ margin-top: 13px;
+}
+*/
+
+h4 {
+ /* font-size: 19px; */
+ font-size: 18px;
+}
+
+h6 {
+ font-size: 16px;
+}
+
+/* h1 .top-item */
+
+.header-img + .container > h1:first-of-type {
+ margin-top: 0;
+}
+
+/* h2 .top-item */
+
+.bg-header + [id] .container > h2:first-of-type,
+.bg-header + .container > h2:first-of-type {
+ margin-top: 0;
+}
+
+.bg-header + .container > :not(h2) + h2:first-of-type {
+ margin-top: 26px !important;
+}
+
+/* Photos */
+
+/* to be edited */
+
+/*
+.imagebox {
+ background: #fff;
+ color: #000;
+ margin: 0 0.8em 1em 0.8em;
+}
+
+.imagebox img,
+.imagebox a img {
+ border: 1px solid #999;
+}
+
+.imagebox p {
+ border-top: 1px solid #f1a629;
+ font-size: .9em;
+ margin: .4em;
+ padding-top: .3em;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.imagebox p.normal {
+ font-weight: normal;
+}
+*/
+
+.imagebox {
+ padding-top: 0 !important;
+}
+
+.imagebox p {
+/*
+ font-size: .9em;
+ margin: .4em;
+ padding: 10px 0;
+*/
+ font-size: 14px;
+ padding: 5px 0;
+ text-align: center;
+}
+
+/* added to scss
+p.caption {
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 10px !important;
+}
+*/
+
+/* .imagebox-xs for small portriat image */
+
+@media (max-width: 767px) {
+ .imagebox-xs img {
+  width: 100%;
+ }
+}
+
+/* fine tune dept head's portriat image in welcome msg */
+
+@media (min-width: 520px) and (max-width: 767px) {
+ #page-section .imagebox {
+  padding-left: 10px;
+  padding-bottom: 10px;
+ }
+ #page-section .imagebox.pull-right {
+  max-width: 240px;
+ }
+}
+
+/* Our Graduates */
+/* to be removed */
+
+/*
+table.graduates {
+ background: #def;
+ border: 1px solid #999;
+ border-collapse: collapse;
+}
+
+table.graduates tr {
+ vertical-align: top;
+}
+
+table.graduates td {
+ border: 1px solid #999;
+ padding: 1em;
+ width: 50%;
+}
+
+table.graduates td img {
+ float: right;
+}
+
+div.graduates {
+ background: #def;
+ border: 1px solid #999;
+ padding: 1em;
+}
+
+div.graduates .imagebox {
+ background: #def;
+}
+
+.photo img {
+ border: 1px solid #666;
+}
+
+.telephone {
+ font-family: "Courier", monospace;
+}
+
+.publications li {
+ font-family: 'Times New Roman', serif;
+ font-size: 1.25em;
+}
+
+.publications em {
+ font-style: italic;
+ font-weight: normal;
+}
+*/
+
+/* ourgraduates */
+
+/* added to scss
+.graduate-card .image-holder {
+  width: 80px;
+}
+
+.graduate-card:hover .image-holder .img,
+.graduate-card:focus .image-holder .img {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+       -o-transform: scale(1.05);
+          transform: scale(1.05);
+}
+*/
+
+/* mute rows */
+
+.muted {
+ background: #f5f5f5;
+ color: #666;
+}
+
+/*
+.muted a {
+ color: #999;
+}
+*/
+
+.news-card-no-image {
+ height: 195px;
+}
+
+.news-card-no-image .image-holder {
+ display: none;
+}
+
+/* contentbox in intranet */
+/* override panel-default */
+
+/*
+.panel-default > .panel-heading {
+ color: #fdf3eb;
+ background-color: #9b8b76;
+}
+*/
+
+/* panel heading style */
+
+.panel-default > .panel-heading.orange {
+ color: #fdf3eb;
+ background-color: #9b8b76;
+}
+
+#page-section #accordion .panel-heading.orange.active {
+ /* background-color: #926326; */
+ background-color: #9b8b76;
+}
+
+/* obsolete */
+
+/*
+.panel-orange {
+ border-color: #ddd;
+}
+
+.panel-orange > .panel-heading {
+ color: #fdf3eb;
+ background-color: #9b8b76;
+ border-color: #ddd;
+}
+*/
+
+/* accordion collapse on clicking whole div */
+
+/* added in scss
+#accordion .panel-title > a {
+ display: block;
+ padding: 10px 15px;
+ margin: -10px -15px;
+}
+*/
+
+/* extend to all elements inside .faq  */
+
+#page-section .faq {
+ padding-left: 20px;
+}
+
+#page-section .faq p {
+ margin-left: -20px;
+}
+
+/* override .faq .question */
+
+/* added to scss
+#page-section .faq .question {
+ margin-top: 20px;
+ font-weight: 500;
+}
+*/
+
+/* to be removed */
+/*
+#accordion .faq .question,
+.faq #accordion .question {
+ background-color: #cdc6ba;
+ color: #5a5a5a;
+ color: #333;
+}
+*/
+
+/* .faq .question in second level (inside panel) */
+
+.panel-body .faq .question,
+.faq .panel-body .question {
+ background-color: #e7dfcd !important;
+ color: #5e513d !important;
+ font-weight: 500;
+}
+
+/* offset anchor links in fixed header page */
+/* removed due to change from fixed-top to static-top */
+/*
+:target:before {
+ display: block;
+ content: " ";
+ margin-top: -125px;
+ height: 125px;
+ visibility: hidden;
+}
+
+@media (min-width: 992px) {
+ :target:before {
+  margin-top: -150px;
+  height: 150px;
+ }
+}
+*/
+
+/* put directly in html source */
+/*
+#page-section {
+ padding-top: 3px;
+}
+*/
+
+/* event page */
+
+/* added to scss
+#past-event .event-card .content {
+ padding-right: 25px;
+}
+*/
+
+/* orig: 148px, 60px */
+/* added to scss
+@media (min-width: 768px) and (max-width: 991px), (max-width: 479px) {
+ #past-event .event-card {
+  height: 175px;
+ }
+ #past-event .title {
+  max-height: 87px;
+ }
+}
+*/
+
+/* event items in main page */
+
+/*
+#home-page .news-section #event-items .image-holder {
+height: 207px
+-xs 261px
+-sm 164px
+-md 176px
+-lg 207px
+*/
+
+/* news items in main page */
+
+/*
+#home-page .news-section #news-items .image-holder .img {
+min-height: 200px
+-xs 300px
+-sm 142 (changed to 146px)
+-md 146px
+-lg 178px
+*/
+
+/* 230-290px */
+/* added to scss
+#home-page .news-section #news-items a .image-holder .img {
+ min-height: 200px;
+}
+*/
+
+/* 291-505px */
+/* added to scss
+@media (min-width: 480px) {
+ #home-page .news-section #news-items a .image-holder .img {
+  min-height: 300px;
+ }
+}
+*/
+
+/* added to scss
+@media (min-width: 768px) {
+ #home-page .news-section #news-items a .image-holder .img {
+  min-height: 142px;
+ }
+}
+
+@media (min-width: 992px) {
+ #home-page .news-section #news-items a .image-holder .img {
+  min-height: 146px;
+ }
+}
+
+@media (min-width: 1290px) {
+ #home-page .news-section #news-items a .image-holder .img {
+  min-height: 178px;
+ }
+}
+*/
+
+/* span tooltip */
+
+span[data-toggle=tooltip] {
+ cursor: pointer;
+}
+
+/* tooltip display fix */
+
+.tooltip {
+ position: fixed;
+}
+
+@media (min-width: 768px) and (max-width: 1289px) {
+ .tooltip {
+  font-size: 12px;
+ }
+}
+
+/* tooltip opacity */
+
+.tooltip.in {
+ opacity:0.8 !important;
+}
+
+/* overlay */
+
+@media (min-width: 768px) {
+ .overlay {
+  position: relative;
+ }
+
+ .overlay img {
+  display: block;
+  width: 100%;
+  height: auto;
+ }
+
+ .overlay .over,
+ .overlay .tover,
+ .overlay .hover {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+ }
+
+ .overlay .hover {
+  opacity: 0;
+ }
+
+ .overlay .hover.expand {
+  transition: .5s ease;
+ }
+
+ .overlay:hover img {
+  opacity: 0.95;
+   -webkit-transform: scale(1.1);
+       -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+           transform: scale(1.1);
+ }
+
+ .overlay:hover .tover {
+  opacity: 0;
+ }
+
+ .overlay:hover .hover {
+  opacity: 1;
+ }
+
+ .overlay .text {
+  /* background-image: linear-gradient(90deg,#7a7163 0,#393526); */
+  background-color: #173c64;
+  color: white;
+  opacity:0.9;
+  width: 230px;
+ }
+}
+
+@media (min-width: 992px) {
+ .overlay .text {
+  width: 210px;
+ }
+}
+
+@media (min-width: 1290px) {
+ .overlay .text {
+  width: 280px;
+ }
+}
+
+.overlay .text {
+ font-size: 16px;
+ padding: 8px 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1289px) {
+ .overlay .text {
+  font-size: 13px;
+  padding: 5px 0px 5px 6px;
+ }
+}
+
+@media (max-width: 767px) {
+ .overlay .text {
+  padding-top: .75em;
+  color: #333;
+ }
+ .overlay .tover {
+  display: none;
+ }
+}
+
+/* left side navigation button fix */
+
+@media (min-width: 992px) and (max-width: 1040px) {
+ .nav-menu-holder.closed.active {
+  /* top: 272px; */
+  top: 248px;
+ }
+}
+
+@media (min-width: 1290px) and (max-width: 1320px) {
+ .nav-menu-holder.closed.active {
+  top: 280px;
+ }
+}
+
+/* hidden in new site */
+
+.hidden-newsite2018 {
+ display: none;
+}
+
+/* print */
+
+@media print {
+ /*  hidden in print */
+ .noprint {
+  display: none;
+ }
+ #header {
+  display: none;
+ }
+ #footer {
+  display: none;
+ }
+ #hkust-footer {
+  display: none;
+ }
+ .header-img {
+  display: none;
+ }
+ .nav-menu-holder {
+  display: none;
+ }
+/*
+ #carousel-main {
+  display: none;
+ }
+*/
+ #spotlight-slides {
+  display: none;
+ }
+ .news-item {
+  display: none;
+ }
+ .research-slides {
+  display: none;
+ }
+ .video-section {
+  display: none;
+ }
+ #event-items {
+  display: none;
+ }
+ #event-slides {
+  display: none;
+ }
+ #past-event {
+  display: none;
+ }
+ .filter {
+  display: none;
+ }
+ #page-section .filter-group {
+  display: none;
+ }
+ #page-section .modal-dialog {
+  display: none;
+ }
+ #people-profile-page .roundbox {
+  display: none;
+ }
+ #researchModal img {
+  display: none;
+ }
+ .infobox {
+  display: none;
+ }
+ .accordion-toggle:after {
+  display: none;
+ }
+ .cards-holder {
+  display: none;
+ }
+ @page {
+  size: A4;
+ }
+ #news-items h3 {
+  margin-top: 0;
+ }
+ p, li {
+  font-size: 14px;
+ }
+ pre {
+  page-break-inside: auto;
+ }
+ #page-section {
+  margin-top: 0 !important;
+  padding-top: 0.5em;
+ }
+ #page-section .imagebox.pull-right {
+  width: 30%;
+  margin-left: 1em;
+ }
+ #page-section .stick-to-header-img {
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+ .container.card-page {
+  max-width: none;
+  width: 100%;
+ }
+ .page-title {
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+ .page-title ~ p {
+  margin-top: 1em;
+ }
+ .bg-header, .bg-header > .container, h1.bg {
+  margin-bottom: 0 !important;
+ }
+ #home-page .top-section .carousel-inner .caption {
+  padding-left: 0;
+ }
+ #home-page .top-section .carousel-inner .caption p {
+  margin-bottom: 0;
+ }
+ .collapse {
+  display: block !important;
+  height: auto !important;
+ }
+ #page-section .imagebox.pull-right a[href]:after,
+ #people-profile-page a[href]:after,
+ .members a[href]:after,
+ table a[href]:after,
+ a[href].venue:after {
+  content: none !important;
+ }
+
+ #people-profile-page .bg-header {
+  padding-bottom: 0;
+ }
+ #people-profile-page .research-area {
+  margin: 0;
+  padding: 0;
+ }
+ #people-profile-page .research-area h5 {
+  margin: 13px 0;
+ }
+
+ .graduate-card {
+  max-width: none;
+  text-align: left;
+ }
+
+ #page-section .table-holder th,
+ #page-section .table-holder td,
+ #page-section .table-holder {
+  padding-left: 0;
+  padding-right: 3px;
+ }
+ #page-section .table-holder th,
+ #page-section .table-holder td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+ }
+ #page-section .scroll-table {
+  overflow-x: visible;
+ }
+/*
+ #research h4:not(:first-child) {
+  page-break-before: always;
+ }
+*/
+ .block-print {
+  page-break-inside: avoid;
+ }
+ #factsheet-page .info-grap {
+  padding-top: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+ }
+ #factsheet-page .desc {
+  margin-top: 0;
+ }
+ #factsheet-page .desc table {
+  margin-bottom: 0;
+ }
+ #factsheet-page .desc td {
+  padding-bottom: 0;
+ }
+ #factsheet-page .index {
+  display: none;
+ }
+ .navigation {
+  display: none;
+ }
+ .cat-tabs {
+  display: none;
+ }
+}
+
+/* end print */
+
+/* reset left right padding of .table-holder to 0 unless added .pad */
+
+/* added to scss
+#page-section .table-holder {
+ padding-left: 0;
+ padding-right: 0;
+}
+
+#page-section .table-holder.pad {
+ padding-left: 20px;
+ padding-right: 20px;
+}
+*/
+
+/* ignore scroll-table in large screen */
+
+/* added to scss
+@media (min-width: 768px) {
+ #page-section .scroll-table {
+  overflow-x: visible !important;
+ }
+ #page-section .scroll-table table {
+  min-width: initial !important;
+ }
+}
+*/
+
+/* logo in google custom search */
+
+.gcsc-branding img {
+ vertical-align: top;
+}
+.gcsc-branding-text {
+ line-height: 1;
+}
+
+/* clear button in google search */
+
+.gscb_a {
+ line-height: 1 !important;
+}
+
+/* override bootstrap clear button */
+
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}
+
+/* override search box style */
+
+input[type=search] {
+/*
+ -webkit-appearance: searchfield;
+*/
+ border-radius: 0;
+ -webkit-appearance: none;
+ border: 1px solid #9a9a9a;
+}
+
+.filter input[type=search] {
+ border-style: none;
+}
+
+/* adjust height in research project page */
+
+/* added to scss
+.proj-card {
+ height: 320px;
+}
+*/
+
+a:not([href]) {
+ color: inherit;
+}
+
+/* mobile menu */
+/* to be added to app.css */
+
+@media (max-width: 991px) {
+ #header .dropdown>a.dropdown-toggle:after {
+  content: "\f105";
+  font-family: FontAwesome;
+  float: right;
+ }
+ #header .dropdown.open>a.dropdown-toggle:after {
+  content: "\f107";
+ }
+ #header .dropdown,
+ #header .dropdown a {
+  padding: 7px 0;
+ }
+}
+
+.tt {
+ font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+ font-size: 95%;
+/*
+ font-size: 90%;
+*/
+}
+
+.card-body {
+ padding: .75em;
+}
+
+.news-card {
+ border: 0;
+}
+
+/* .media-list */
+
+.media-left img {
+ border: 1px solid #666;
+ margin: 5px 10px 10px 0;
+}
+
+@media (max-width: 479px) {
+ .media-left img {
+  max-width: 120px;
+ }
+/*
+ .media-body {
+  float: left;
+ }
+*/
+}
+
+@media print {
+ .media-left a[href]:after {
+  content: none !important;
+ }
+}
+
+@media (max-width: 320px) {
+ .media-body {
+  display: block;
+  width: auto;
+ }
+}
+
+.date-label {
+ opacity: 0.9;
+}
+
+/* Box Outline */
+
+p:hover.textbox {
+ background-color: #ffffd9;
+}
+
+.textbox {
+ border: 1px solid #999;
+ padding: 0.5em 1em;
+}
+
+.btn-outline {
+ border: 1px solid #999;
+ background-color: white;
+ font-weight: 700;
+ white-space: normal;
+}
+
+.btn-outline.btn-info {
+ border-color: #35a9d8;
+ color: #35a9d8;
+}
+
+.btn-outline.btn-info:hover {
+ background-color: white;
+ border-color: #ef7c1f;
+ color: #ef7c1f;
+}
+
+/* removed .frame (as messing up with events section */
+
+/* div.frame { */
+div.box {
+ border: 1px solid #999;
+ padding: 0.5em 1em;
+ margin-bottom: 1em;
+}
+
+/* compact table */
+
+.table-sm th, .table-sm td {
+ padding-top: 3px !important;
+ padding-bottom: 3px !important;
+}
+
+/* pull-right image */
+
+.imagebox.pull-right {
+ margin-left: 3px;
+}
+
+/* filter box on white background */
+
+.bg .btn {
+ background-color: #eee;
+}
+
+/* image with border */
+
+.img-border {
+ border: 1px solid #999;
+}
+
+#page-section .bg-blue p {
+ color: #fcfcfc;
+}
+
+/* fonts for HKUST */
+
+#footer {
+ font-family: Muli, Microsoft JhengHei, sans-serif;
+}
+
+#more-hkust .more-about {
+ color: #036;
+}
+
+/* fix safari problem on large screen */
+/* moved to app.css */
+/*
+#header-menu .site-logo {
+ max-width: 600px;
+ margin-top: 5px;
+}
+
+@media (max-width: 1289px) {
+ #header-menu .site-logo {
+  margin-top: 0px;
+ }
+}
+*/
+
+/* revert logo size (to be confirmed) */
+/*
+#header-menu .site-logo {
+ max-width: none;
+ margin-top: 0px;
+}
+*/
+
+/* override 700 font weight on menu */
+#header .main-menu a {
+ font-weight: 600;
+}
+
+/* fix Microsoft Edge hover problem by rounding */
+#header .share-menu {
+ line-height: 22px;
+}
+
+@media (max-width: 991px) {
+ #header .intranet-menu {
+  padding-top: 4px;
+  padding-bottom: 4px;
+ }
+}
+
+strong u,
+u strong {
+/*
+ color: #333;
+*/
+ color: inherit;
+}
+
+/* faculty profile */
+
+#people-profile-page .research-area h5 {
+ color: #164f71;
+}
+
+#people-profile-page .research-area h5.subtitle {
+ margin-bottom: 13px;
+}
+
+#people-profile-page .research-area p {
+ font-size: 15px;
+/*
+ line-height: 1.4;
+ margin-top: 2px;
+*/
+}
+
+#people-profile-page .research-area p.intro,
+#people-profile-page .research-area .centers p {
+ font-size: 16px;
+}
+
+/* hyperlinks inside seminars/defenses/fyt */
+
+pre a {
+ color: #00e;
+}
+
+/* override text color in li, p */
+
+.em li,
+.em p {
+ color: #e33 !important;
+}
+
+/* override .infobox max-width */
+
+.infobox.photobox {
+ max-width: 360px;
+}
+
+.infobox {
+/*
+*/
+ max-width: 360px;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+/* 2021-08-17: changed to font type Muli (switched to cse.hkust.edu.hk) */
+
+body {
+ /* font-family: Muli, Arial, Microsoft JhengHei, sans-serif; */
+ font-family: Muli, Microsoft JhengHei, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+ font-weight: 600;
+}
+
+@media (min-width: 992px) and (max-width: 1289px) {
+ #home-page .top-section .quick-links li {
+  /* font-size: 15px; */
+  font-size: 14.5px;
+ }
+ #home-page .top-section .quick-links {
+  /* padding-left: 25px; */
+  padding-left: 20px;
+ }
+}
+
+@media (min-width: 1290px) {
+ #home-page .top-section .quick-links li {
+  /* font-size: 18px; */
+  /* font-size: 17.5px; */
+  font-size: 17px;
+ }
+}
+
+#home-page .top-section .quick-links li a {
+ /* color: #5a5a5a; */
+ /* color: #3a3a3a; */
+ color: #4a4a4a;
+}
+
+#people-profile-page .row-1 .edu {
+ /* color: #9b8b76; */
+ color: #8b7b66;
+}
+
+@media (min-width: 768px) {
+ .filter .filter-group {
+  /* margin-left: 30px; */
+  margin-left: 20px;
+ }
+
+ #past-event .events-holder li {
+  /* width: calc(50% - 32px); */ /* original */
+  width: calc(50% - 34px);
+  /* width: 452px; */
+ }
+}
+
+h2 a {
+ color: #164f71;
+}
+
+h2 a:hover {
+ color: #164f71;
+ border-bottom-style: solid;
+}
+
+acronym {
+ text-decoration: none;
+}
+
+abbr {
+ text-decoration: none;
+ border-bottom: none !important;
+}
+
+.hidden {
+ visibility: hidden;
+}
+
+a.hover:hover {
+ border-bottom-style: solid;
+ border-bottom-width: 1px;
+}
+
+/* sticky table header */
+
+.sticky-header thead tr:first-child th {
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0;
+ background-color: #fff;
+}
+
+/* list style timeline */
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+/* underline custom email tag */
+
+email {
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+}
+
+/* show help cursor */
+
+span.help {
+ cursor: help;
+}
+
+/* override code in bootstrap */
+
+/*
+code {
+ color: #5a5a5a;
+}
+*/
+
+label li {
+ color: #333;
+}
+
+.draft p {
+ color:#ddd;
+}
+
+/* factsheet page */
+
+#factsheet-page .ranking .title .subject {
+ font-size: 16px;
+ color: #777;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ #factsheet-page .big-number {
+  font-size: 100px;
+  margin-top: 48px;
+ }
+}
