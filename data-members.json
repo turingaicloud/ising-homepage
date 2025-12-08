@@ -18,26 +18,9 @@
         "link": "https://albertbowen.github.io/"
     },
     {
-        "photo_url": "./members/liu.jpg",
-        "name": "Liu Yang",
-        "position": "PhD student"
-    },
-    {
         "photo_url": "./members/empty.png",
         "name": "Hao Xu",
         "position": "PhD student"
-    },
-    {
-        "photo_url": "./members/zhenghang.jpg",
-        "name": "Zhenghang Ren",
-        "position": "PhD student",
-        "link": "https://home.cse.ust.hk/~zrenak/"
-    },
-    {
-        "photo_url": "./members/wenxue.jpg",
-        "name": "Wenxue Li",
-        "position": "PhD student",
-        "link": "https://leewxgit.github.io/index.html"
     },
     {
         "photo_url": "./members/decang.jpg",
@@ -212,6 +195,23 @@
         "name": "Xudong Liao",
         "position": "PhD 2025",
         "link": "https://xudongliao.github.io/"
+    },
+    {
+        "photo_url": "./members/liu.jpg",
+        "name": "Liu Yang",
+        "position": "PhD student"
+    },
+    {
+        "photo_url": "./members/zhenghang.jpg",
+        "name": "Zhenghang Ren",
+        "position": "PhD student",
+        "link": "https://home.cse.ust.hk/~zrenak/"
+    },
+    {
+        "photo_url": "./members/wenxue.jpg",
+        "name": "Wenxue Li",
+        "position": "PhD student",
+        "link": "https://leewxgit.github.io/index.html"
     },
     {
         "photo_url": "./members/hengky.jpg",
