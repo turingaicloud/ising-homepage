@@ -1,6 +1,10 @@
 {
     "news":[
     {
+      "time": "Dec 2025 ",
+      "content": "PolicyCache and CascadeNet accepted to NSDI'26"
+    },
+    {
       "time": "Sep 2025 ",
       "content": "DCP received Best Student Paper Award (Honorable Mention) at SIGCOMM'25"
     },
