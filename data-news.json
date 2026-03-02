@@ -1,6 +1,14 @@
 {
     "news":[
     {
+      "time": "Jan 2026 ",
+      "content": "Themis accepted to EuroSys'26"
+    },
+    {
+      "time": "Jan 2026 ",
+      "content": "Centrifuge accepted to ICLR'26"
+    },
+    {
       "time": "Dec 2025 ",
       "content": "PolicyCache and CascadeNet accepted to NSDI'26"
     },
