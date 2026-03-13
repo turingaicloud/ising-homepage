@@ -199,18 +199,18 @@
     {
         "photo_url": "./members/liu.jpg",
         "name": "Liu Yang",
-        "position": "PhD student"
+        "position": "PhD 2025"
     },
     {
         "photo_url": "./members/zhenghang.jpg",
         "name": "Zhenghang Ren",
-        "position": "PhD student",
+        "position": "PhD 2025",
         "link": "https://home.cse.ust.hk/~zrenak/"
     },
     {
         "photo_url": "./members/wenxue.jpg",
         "name": "Wenxue Li",
-        "position": "PhD student",
+        "position": "PhD 2025",
         "link": "https://leewxgit.github.io/index.html"
     },
     {
