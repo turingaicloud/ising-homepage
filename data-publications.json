@@ -1,6 +1,42 @@
 {
     "publications":[
     {
+        "title": "TurboBus: Pooling PCIe Bandwidth for LLM Workloads via Scale-Up Fabrics",
+        "authors": "Xinyu Yang, Kaiqiang Xu, Kai Chen",
+        "venue": "ACM SIGCOMM 2026"
+    },
+    {
+        "title": "PolicyCache: Intra-flow Learning in Congestion Control",
+        "authors": "Han Tian, Han Wang, Wenbo Li, Xudong Liao, Decang Sun, Wenxue Li, Donghui Chen, Bin Huang, Senbo Fu,
+Junxue Zhang, Dian Shen, Kai Chen",
+        "venue": "USENIX NSDI 2026"
+    },
+    {
+        "title": "CascadeNet: Generating Network Traffic with High-Fidelity Temporal Patterns",
+        "authors": "Runwei Lu, Yanran Deng, Ruixuan Li, Jinting Liu, Yuejie Wang, Xinyu Li, Deming Xu, Han Tian, Kai Chen, Guyue Liu",
+        "venue": "USENIX NSDI 2026"
+    },
+    {
+        "title": "Unlocking Full Efficiency of Token Filtering in Large Language Model Training",
+        "authors": "Di Chai, Pengbo Li, Feiyuan Zhang, Yilun Jin, Han Tian, Kaiqiang Xu, Binhang Yuan, Dian Shen, Junxue Zhang, Kai Chen",
+        "venue": "ICLR 2026"
+    },
+    {
+        "title": "Enabling Packet Spraying over Commodity RNICs with In-Network Support",
+        "authors": "Xiangzhou Liu, Wenxue Li, Zihao Wang, Kai Chen",
+        "venue": "ACM EuroSys 2026"
+    },
+    {
+        "title": "MFS: An Efficient Model Family Serving System for Large Language Models",
+        "authors": "Yunxuan Zhang, Hao Wang, Han Tian, Liu Yang, Xudong Liao, Wenxue Li, Ping Yin, Bowen Liu, Kai Chen",
+        "venue": "ACM EuroSys 2026"
+    },
+    {
+        "title": "Learn-to-Probe: Achieving Signal Distinguishability in Learning-based Congestion Control",
+        "authors": "Han Tian, Wenbo Li, Junxue Zhang, Xudong Liao, Decang Sun, Donghui Chen, Bin Huang, Wenxue Li, Yong Wang, Kai Chen",
+        "venue": "ACM EuroSys 2026"
+    },
+    {
         "title": "MixNet: A Runtime Reconfigurable Optical-Electrical Fabric for Distributed Mixture-of-Experts Training",
         "authors": "Xudong Liao, Yijun Sun, Han Tian, Xinchen Wan, Yilun Jin, Zilong Wang, Zhenghang Ren, Xinyang Huang, Wenxue Li, Kin Fai Tse, Zhizhen Zhong, Guyue Liu, Ying Zhang, Xiaofeng Ye, Yiming Zhang, Kai Chen",
         "venue": "ACM SIGCOMM 2025"
