@@ -18,12 +18,6 @@
         "link": "https://albertbowen.github.io/"
     },
     {
-        "photo_url": "./members/tingting.jpg",
-        "name": "Tingting Xu",
-        "position": "Postdoc",
-        "link": "https://tingtingxua.github.io/home/"
-    },
-    {
         "photo_url": "./members/empty.png",
         "name": "Hao Xu",
         "position": "PhD student"
@@ -233,6 +227,12 @@
         "photo_url": "./members/wenxin.jpg",
         "name": "Wenxin Li",
         "position": "Postdoc, 2019"
+    },
+    {
+        "photo_url": "./members/tingting.jpg",
+        "name": "Tingting Xu",
+        "position": "Postdoc",
+        "link": "https://tingtingxua.github.io/home/"
     },
     {
         "photo_url": "./members/yang.png",
