@@ -1,6 +1,14 @@
 {
     "news":[
     {
+      "time": "July 2026 ",
+      "content": "Pyxis and PipeTune accepted to NSDI'27"
+    },
+    {
+      "time": "July 2026 ",
+      "content": "ARIES and RaLB accepted to ICNP'26"
+    },
+    {
       "time": "May 2026 ",
       "content": "TurboBus accepted to SIGCOMM'26"
     },

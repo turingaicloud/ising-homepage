@@ -1,9 +1,24 @@
 {
     "publications":[
     {
-        "title": "TurboBus: Pooling PCIe Bandwidth for LLM Workloads via Scale-Up Fabrics",
-        "authors": "Xinyu Yang, Kaiqiang Xu, Kai Chen",
-        "venue": "ACM SIGCOMM 2026"
+        "title": "Pyxis: Unlocking Multi-NIC Bandwidth for Incast Traffic in AI Clusters",
+        "authors": "Wenxue Li, Zihao Wang, Zhaoxiang Bao, Zhenghang Ren, Yijun Sun, Bowen Liu, Han Tian, Junxue Zhang, Xiaolin Chen, Kai Chen",
+        "venue": "USENIX NSDI 2027"
+    },
+    {
+        "title": "PipeTune: An Efficient Performance Tuning Framework for Host Datapaths",
+        "authors": "Xinyang Huang, Zhuobin Huang, Qijing Li, Junxue Zhang, Zhenghang Ren, Mengyu Ma, Han Tian, Bowen Liu, Kai Chen",
+        "venue": "USENIX NSDI 2027"
+    },
+    {
+        "title": "ARIES: Cost-Efficient Tunnel Gateway Offload on Programmable Switches",
+        "authors": "Decang Sun, Gonglong Chen, Chaoliang Zeng, Kaiqiang Xu, Han Tian, Zili Meng, Wei Chen, Yuxi Wang, Kai Chen",
+        "venue": "IEEE ICNP 2026"
+    },
+    {
+        "title": "Enabling Rate-Aware Load Balancing for Datacenter Networks",
+        "authors": "Jin Wang, Yang Li, Jinbin Hu, Kai Chen",
+        "venue": "IEEE ICNP 2026"
     },
     {
         "title": "PolicyCache: Intra-flow Learning in Congestion Control",
