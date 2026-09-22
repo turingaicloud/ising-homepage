@@ -104,22 +104,22 @@
     {
         "photo_url": "./members/zhaoshuo.jpg",
         "name": "Zhaoshuo Liu",
-        "position": "Phd student",
+        "position": "Phd student"
     },
     {
         "photo_url": "./members/zixun.jpg",
         "name": "Zixun Su",
-        "position": "Phd student",
+        "position": "Phd student"
     },
     {
         "photo_url": "./members/zhuo.jpg",
         "name": "Zhuo Chen",
-        "position": "MPhil student",
+        "position": "MPhil student"
     },
     {
         "photo_url": "./members/daoping.jpg",
         "name": "Daoping Zhang",
-        "position": "MPhil student",
+        "position": "MPhil student"
     }
 ],
 
